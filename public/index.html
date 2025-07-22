@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Classic Music Player</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #111; color: #fff; padding: 20px; }
+    .playlist-btn { margin: 5px; padding: 5px 10px; cursor: pointer; background: #333; color: #fff; border: none; }
+    .song-block { margin: 5px 0; cursor: pointer; padding: 8px; background: #222; border: 1px solid #444; }
+    .song-block:hover { background: #333; }
+    #nowPlaying { position: fixed; bottom: 0; left: 0; right: 0; background: #222; padding: 10px; border-top: 1px solid #444; display: none; align-items: center; justify-content: space-between; }
+    #nowPlaying span, button { margin: 0 5px; }
+    input[type="range"] { width: 200px; }
+  </style>
+</head>
+<body>
+
+<h2>Playlists</h2>
+<div id="playlistButtons"></div>
+<input type="text" id="searchInput" placeholder="Search songs...">
+<button id="shuffleBtn">🔀 Shuffle</button>
+<div id="content"></div>
+
+<div id="nowPlaying">
+  <div>
+    <strong>Now Playing:</strong> <span id="nowPlayingTitle">-</span><br>
+    <span id="currentTime">0:00</span> / <span id="duration">0:00</span><br>
+    <input type="range" id="progressSlider" value="0" min="0" max="100">
+  </div>
+  <div>
+    <button id="prevBtn">⏮</button>
+    <button id="playPauseBtn">⏸</button>
+    <button id="nextBtn">⏭</button>
+  </div>
+</div>
+
+<script>
+let allSongs = [];
+let currentVisibleSongs = [];
+let currentIndex = -1;
+let audioPlayer;
+
+const playlistButtonsDiv = document.getElementById('playlistButtons');
+const contentDiv = document.getElementById('content');
+const searchInput = document.getElementById('searchInput');
+const shuffleBtn = document.getElementById('shuffleBtn');
+const nowPlayingDiv = document.getElementById('nowPlaying');
+const nowPlayingTitle = document.getElementById('nowPlayingTitle');
+const currentTimeSpan = document.getElementById('currentTime');
+const durationSpan = document.getElementById('duration');
+const progressSlider = document.getElementById('progressSlider');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+const playPauseBtn = document.getElementById('playPauseBtn');
+
+function formatTime(seconds) {
+  const mins = Math.floor(seconds / 60);
+  const secs = Math.floor(seconds % 60);
+  return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+}
+
+function playSongAtIndex(index) {
+  if (index < 0 || index >= currentVisibleSongs.length) return;
+  currentIndex = index;
+  const { playlist, song } = currentVisibleSongs[index];
+  const ext = song.split('.').pop();
+  const mimeType = {
+    mp3: 'audio/mpeg', webm: 'audio/webm', ogg: 'audio/ogg'
+  }[ext] || 'audio/mpeg';
+
+  if (audioPlayer) {
+    audioPlayer.pause();
+    audioPlayer.remove();
+  }
+  audioPlayer = new Audio(`songs/${playlist}/${song}`);
+  audioPlayer.type = mimeType;
+  audioPlayer.autoplay = true;
+
+  nowPlayingTitle.textContent = song;
+  nowPlayingDiv.style.display = 'flex';
+
+  audioPlayer.addEventListener('loadedmetadata', () => {
+    durationSpan.textContent = formatTime(audioPlayer.duration);
+    progressSlider.max = audioPlayer.duration;
+  });
+  audioPlayer.addEventListener('timeupdate', () => {
+    currentTimeSpan.textContent = formatTime(audioPlayer.currentTime);
+    progressSlider.value = audioPlayer.currentTime;
+  });
+  audioPlayer.addEventListener('ended', () => {
+    playSongAtIndex(currentIndex + 1);
+  });
+  progressSlider.oninput = () => {
+    audioPlayer.currentTime = progressSlider.value;
+  };
+  playPauseBtn.innerText = '⏸';
+}
+
+playPauseBtn.onclick = () => {
+  if (audioPlayer) {
+    if (audioPlayer.paused) {
+      audioPlayer.play();
+      playPauseBtn.innerText = '⏸';
+    } else {
+      audioPlayer.pause();
+      playPauseBtn.innerText = '▶️';
+    }
+  }
+};
+
+prevBtn.onclick = () => {
+  if (currentIndex > 0) playSongAtIndex(currentIndex - 1);
+};
+
+nextBtn.onclick = () => {
+  if (currentIndex < currentVisibleSongs.length - 1)
+    playSongAtIndex(currentIndex + 1);
+};
+
+function displaySongs(songList, filter = '') {
+  contentDiv.innerHTML = '';
+  const lowerFilter = filter.toLowerCase();
+  currentVisibleSongs = songList.filter(({ song }) => song.toLowerCase().includes(lowerFilter));
+  currentVisibleSongs.forEach(({ playlist, song }, idx) => {
+    const div = document.createElement('div');
+    div.className = 'song-block';
+    div.textContent = song;
+    div.onclick = () => playSongAtIndex(idx);
+    contentDiv.appendChild(div);
+  });
+}
+
+function setupPlaylists(playlists) {
+  playlistButtonsDiv.innerHTML = '';
+
+  const allBtn = document.createElement('button');
+  allBtn.className = 'playlist-btn';
+  allBtn.textContent = '🎵 All';
+  allBtn.onclick = () => displaySongs(allSongs, searchInput.value);
+  playlistButtonsDiv.appendChild(allBtn);
+
+  for (const playlistName in playlists) {
+    const btn = document.createElement('button');
+    btn.className = 'playlist-btn';
+    btn.textContent = playlistName;
+    btn.onclick = () => {
+      const songs = allSongs.filter(song => song.playlist === playlistName);
+      displaySongs(songs, searchInput.value);
+    };
+    playlistButtonsDiv.appendChild(btn);
+  }
+}
+
+fetch('/songs')
+  .then(res => res.json())
+  .then(playlists => {
+    for (const [playlist, songs] of Object.entries(playlists)) {
+      songs.forEach(song => {
+        allSongs.push({ playlist, song });
+      });
+    }
+    setupPlaylists(playlists);
+    displaySongs([]);
+  });
+
+searchInput.addEventListener('input', () => {
+  displaySongs(currentVisibleSongs, searchInput.value);
+});
+
+shuffleBtn.addEventListener('click', () => {
+  if (currentVisibleSongs.length === 0) return;
+  const randomIndex = Math.floor(Math.random() * currentVisibleSongs.length);
+  playSongAtIndex(randomIndex);
+});
+</script>
+
+</body>
+</html>
