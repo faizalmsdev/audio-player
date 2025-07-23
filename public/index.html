@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Enhanced Music Player</title>
+  <title>Songify</title>
   <style>
     * {
       margin: 0;
@@ -237,25 +237,64 @@
       white-space: nowrap;
     }
 
-    .play-indicator {
+    .song-actions {
       position: absolute;
       top: 10px;
       right: 10px;
-      background: rgba(69, 183, 209, 0.9);
-      color: white;
+      display: flex;
+      gap: 5px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .song-card:hover .song-actions {
+      opacity: 1;
+    }
+
+    .song-card.playing .song-actions {
+      opacity: 1;
+    }
+
+    .action-btn {
+      background: rgba(0, 0, 0, 0.8);
+      border: none;
       border-radius: 50%;
       width: 30px;
       height: 30px;
       display: flex;
       align-items: center;
       justify-content: center;
+      color: white;
+      cursor: pointer;
       font-size: 12px;
-      opacity: 0;
-      transition: opacity 0.3s ease;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
     }
 
-    .song-card.playing .play-indicator {
-      opacity: 1;
+    .action-btn:hover {
+      background: rgba(69, 183, 209, 0.9);
+      transform: scale(1.1);
+    }
+
+    .play-indicator {
+      background: rgba(69, 183, 209, 0.9);
+      color: white;
+    }
+
+    .download-btn {
+      background: rgba(255, 107, 107, 0.9);
+    }
+
+    .download-btn:hover {
+      background: rgba(255, 107, 107, 1);
+    }
+
+    .next-btn {
+      background: rgba(78, 205, 196, 0.9);
+    }
+
+    .next-btn:hover {
+      background: rgba(78, 205, 196, 1);
     }
 
     .now-playing {
@@ -417,6 +456,36 @@
       opacity: 0.5;
     }
 
+    /* Toast notification styles */
+    .toast {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.9);
+      color: white;
+      padding: 12px 20px;
+      border-radius: 25px;
+      z-index: 1000;
+      opacity: 0;
+      transform: translateX(100%);
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .toast.success {
+      background: rgba(78, 205, 196, 0.9);
+    }
+
+    .toast.error {
+      background: rgba(255, 107, 107, 0.9);
+    }
+
     @media (max-width: 768px) {
       .header {
         padding: 15px;
@@ -471,6 +540,16 @@
         width: 40px;
         height: 40px;
         font-size: 18px;
+      }
+
+      .toast {
+        right: 10px;
+        left: 10px;
+        transform: translateY(-100%);
+      }
+
+      .toast.show {
+        transform: translateY(0);
       }
     }
 
@@ -585,6 +664,20 @@ const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 const playPauseBtn = document.getElementById('playPauseBtn');
 
+function showToast(message, type = 'success') {
+  const toast = document.createElement('div');
+  toast.className = `toast ${type}`;
+  toast.textContent = message;
+  document.body.appendChild(toast);
+  
+  setTimeout(() => toast.classList.add('show'), 100);
+  
+  setTimeout(() => {
+    toast.classList.remove('show');
+    setTimeout(() => document.body.removeChild(toast), 300);
+  }, 3000);
+}
+
 function formatTime(seconds) {
   if (!isFinite(seconds)) return '0:00';
   const mins = Math.floor(seconds / 60);
@@ -593,31 +686,25 @@ function formatTime(seconds) {
 }
 
 function getDisplayName(song) {
-  // Check if we have metadata with track name
   if (song.metadata && song.metadata.track_name) {
     return song.metadata.track_name;
   }
   if (song.track_name) {
     return song.track_name;
   }
-  // Fallback to cleaning up filename
   return song.filename.replace(/\.(mp3|webm|ogg)$/i, '').replace(/-/g, ' ');
 }
 
 function getArtistName(song) {
-  // Check metadata for artists_string
   if (song.metadata && song.metadata.artists_string) {
     return song.metadata.artists_string;
   }
-  // Check if artists is an array and join them
   if (song.metadata && song.metadata.artists && Array.isArray(song.metadata.artists)) {
     return song.metadata.artists.join(', ');
   }
-  // Check for artists_string directly on song
   if (song.artists_string) {
     return song.artists_string;
   }
-  // Fallback to song.artists if available
   if (song.artists) {
     return song.artists;
   }
@@ -635,15 +722,42 @@ function getAlbumName(song) {
 }
 
 function getCoverArt(song) {
-  // Use the cover_art_url directly from metadata
   if (song.metadata && song.metadata.cover_art_url) {
     return song.metadata.cover_art_url;
   }
-  // Also check if it's directly on the song object
   if (song.cover_art_url) {
     return song.cover_art_url;
   }
   return null;
+}
+
+function downloadSong(song, event) {
+  event.stopPropagation();
+  
+  const url = `/songs/${song.playlist}/${song.filename}`;
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = `${getDisplayName(song)} - ${getArtistName(song)}.${song.filename.split('.').pop()}`;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  
+  showToast(`Downloading: ${getDisplayName(song)}`, 'success');
+}
+
+function playNextSong(song, event) {
+  event.stopPropagation();
+  
+  const songIndex = currentVisibleSongs.findIndex(s => 
+    s.filename === song.filename && s.playlist === song.playlist
+  );
+  
+  if (songIndex !== -1 && songIndex < currentVisibleSongs.length - 1) {
+    playSongAtIndex(songIndex + 1);
+    showToast(`Playing next: ${getDisplayName(currentVisibleSongs[songIndex + 1])}`, 'success');
+  } else {
+    showToast('No next song available', 'error');
+  }
 }
 
 function updateNowPlaying(song) {
@@ -660,10 +774,17 @@ function updateNowPlaying(song) {
 
 function updatePlayingState() {
   document.querySelectorAll('.song-card').forEach((card, idx) => {
+    const playIndicator = card.querySelector('.play-indicator');
     if (idx === currentIndex) {
       card.classList.add('playing');
+      if (playIndicator) {
+        playIndicator.innerHTML = audioPlayer && !audioPlayer.paused ? '⏸' : '▶️';
+      }
     } else {
       card.classList.remove('playing');
+      if (playIndicator) {
+        playIndicator.innerHTML = '▶️';
+      }
     }
   });
 }
@@ -685,7 +806,6 @@ function playSongAtIndex(index) {
     audioPlayer.remove();
   }
   
-  // Use the server's static file serving
   audioPlayer = new Audio(`/songs/${song.playlist}/${song.filename}`);
   audioPlayer.type = mimeType;
   audioPlayer.autoplay = true;
@@ -705,8 +825,15 @@ function playSongAtIndex(index) {
   });
 
   audioPlayer.addEventListener('ended', () => {
-    playSongAtIndex(currentIndex + 1);
+    if (currentIndex < currentVisibleSongs.length - 1) {
+      playSongAtIndex(currentIndex + 1);
+    } else {
+      showToast('Playlist ended', 'success');
+    }
   });
+
+  audioPlayer.addEventListener('play', updatePlayingState);
+  audioPlayer.addEventListener('pause', updatePlayingState);
 
   progressSlider.oninput = () => {
     audioPlayer.currentTime = progressSlider.value;
@@ -728,12 +855,18 @@ playPauseBtn.onclick = () => {
 };
 
 prevBtn.onclick = () => {
-  if (currentIndex > 0) playSongAtIndex(currentIndex - 1);
+  if (currentIndex > 0) {
+    playSongAtIndex(currentIndex - 1);
+  } else {
+    showToast('Already at first song', 'error');
+  }
 };
 
 nextBtn.onclick = () => {
   if (currentIndex < currentVisibleSongs.length - 1) {
     playSongAtIndex(currentIndex + 1);
+  } else {
+    showToast('Already at last song', 'error');
   }
 };
 
@@ -755,10 +888,22 @@ function createSongCard(song, index) {
         <div class="song-album">${getAlbumName(song)}</div>
       </div>
     </div>
-    <div class="play-indicator">▶️</div>
+    <div class="song-actions">
+      <button class="action-btn play-indicator" title="Play/Pause">▶️</button>
+      <button class="action-btn next-btn" title="Play Next">⏭</button>
+      <button class="action-btn download-btn" title="Download">⬇️</button>
+    </div>
   `;
 
+  // Add event listeners
   card.onclick = () => playSongAtIndex(index);
+  
+  const nextBtn = card.querySelector('.next-btn');
+  nextBtn.onclick = (e) => playNextSong(song, e);
+  
+  const downloadBtn = card.querySelector('.download-btn');
+  downloadBtn.onclick = (e) => downloadSong(song, e);
+  
   return card;
 }
 
