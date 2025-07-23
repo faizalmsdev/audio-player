@@ -1,0 +1,1477 @@
+{
+  "download_info": {
+    "timestamp": "2025-07-23 12:33:14",
+    "source_url": "https://open.spotify.com/playlist/4aC5lXajEkKA7LN9CwO3Pw?si=77ada86ec3454908",
+    "total_tracks": 26,
+    "successful_downloads": 26,
+    "failed_downloads": 0,
+    "success_rate": "100.0%",
+    "songs_folder": "spotify_download_20250723_122441\\songs",
+    "cover_art_folder": "spotify_download_20250723_122441\\cover_art",
+    "cover_art_downloaded": 26
+  },
+  "download_results": [
+    {
+      "track_name": "Idhuvum Kadandhu Pogum (The Healing Song) (From \"Netrikann\")",
+      "artists": "Girishh G, Sid Sriram",
+      "search_query": "Idhuvum Kadandhu Pogum (The Healing Song) (From \"Netrikann\") Girishh G, Sid Sriram",
+      "status": "success",
+      "error": null,
+      "filename": "Idhuvum-Kadandhu-Pogum-The-Healing-Song-From-Netrikann-Girishh-G-Sid-Sriram.mp3",
+      "video_title": "Netrikann - Idhuvum Kadandhu Pogum Video | Nayanthara | Vignesh Shivan | Girishh",
+      "metadata": {
+        "track_name": "Idhuvum Kadandhu Pogum (The Healing Song) (From \"Netrikann\")",
+        "track_uri": "spotify:track:6voQcZ46RMVPfg6O7sBn5U",
+        "artists": [
+          "Girishh G",
+          "Sid Sriram"
+        ],
+        "artist_uris": [
+          "spotify:artist:5VvulDYNoxmP3ey1yGddvB",
+          "spotify:artist:7qjJw7ZM2ekDSahLXPjIlN"
+        ],
+        "artists_string": "Girishh G, Sid Sriram",
+        "album_name": "Idhuvum Kadandhu Pogum (The Healing Song) [From \"Netrikann\"]",
+        "album_uri": "spotify:album:3SMDIeiDW078rfNecRuq66",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273fbb4f8a6c5affbb66cc78179",
+        "cover_art_filename": "Idhuvum-Kadandhu-Pogum-The-Healing-Song-From-Netrikann_Girishh-G_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02fbb4f8a6c5affbb66cc78179",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851fbb4f8a6c5affbb66cc78179",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273fbb4f8a6c5affbb66cc78179",
+            "width": 640
+          }
+        ],
+        "duration_ms": 312592,
+        "duration_seconds": 312.592,
+        "duration_formatted": "5:12",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "39873524",
+        "content_rating": "NONE",
+        "added_at": "2025-04-10T09:22:07Z",
+        "added_at_formatted": "2025-04-10 09:22:07",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:48.167152"
+      }
+    },
+    {
+      "track_name": "Thenkizhakku - From \"Vaazhai\"",
+      "artists": "Santhosh Narayanan, Dhee, Yugabharathi",
+      "search_query": "Thenkizhakku - From \"Vaazhai\" Santhosh Narayanan, Dhee, Yugabharathi",
+      "status": "success",
+      "error": null,
+      "filename": "Thenkizhakku-From-Vaazhai-Santhosh-Narayanan-Dhee-Yugabharathi.mp3",
+      "video_title": "Thenkizhakku - Video Song | Vaazhai | Mari Selvaraj | Santhosh Narayanan | Nikhila Vimal | Dhee",
+      "metadata": {
+        "track_name": "Thenkizhakku - From \"Vaazhai\"",
+        "track_uri": "spotify:track:3qXHJ7BfnsU7reHngWMI4f",
+        "artists": [
+          "Santhosh Narayanan",
+          "Dhee",
+          "Yugabharathi"
+        ],
+        "artist_uris": [
+          "spotify:artist:5FVBduYaeVBb6JIghza7v6",
+          "spotify:artist:77YvCBWe0tTLygpgSJsdOH",
+          "spotify:artist:4kzSv6FtNOoY6s4VFD3L6e"
+        ],
+        "artists_string": "Santhosh Narayanan, Dhee, Yugabharathi",
+        "album_name": "Thenkizhakku (From \"Vaazhai\")",
+        "album_uri": "spotify:album:187VNE79sofMajbZamOLXY",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b27306f153da8b1d375dac97a873",
+        "cover_art_filename": "Thenkizhakku-From-Vaazhai_Santhosh-Narayanan_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0206f153da8b1d375dac97a873",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485106f153da8b1d375dac97a873",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27306f153da8b1d375dac97a873",
+            "width": 640
+          }
+        ],
+        "duration_ms": 262656,
+        "duration_seconds": 262.656,
+        "duration_formatted": "4:22",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "13298604",
+        "content_rating": "NONE",
+        "added_at": "2025-04-10T09:22:14Z",
+        "added_at_formatted": "2025-04-10 09:22:14",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:48.223291"
+      }
+    },
+    {
+      "track_name": "Naan Pizhai (From \"Kaathuvaakula Rendu Kaadhal\")",
+      "artists": "Anirudh Ravichander, Ravi G, Shashaa Tirupati",
+      "search_query": "Naan Pizhai (From \"Kaathuvaakula Rendu Kaadhal\") Anirudh Ravichander, Ravi G, Shashaa Tirupati",
+      "status": "success",
+      "error": null,
+      "filename": "Naan-Pizhai-From-Kaathuvaakula-Rendu-Kaadhal-Anirudh-Ravichander-Ravi-G-Shashaa-Tirupati.mp3",
+      "video_title": "Kaathuvaakula Rendu Kaadhal - Naan Pizhai Video | Vijay Sethupathi, Nayanthara | Anirudh Ravichander",
+      "metadata": {
+        "track_name": "Naan Pizhai (From \"Kaathuvaakula Rendu Kaadhal\")",
+        "track_uri": "spotify:track:1UUgngRGzFWfgpyN0WAN1r",
+        "artists": [
+          "Anirudh Ravichander",
+          "Ravi G",
+          "Shashaa Tirupati"
+        ],
+        "artist_uris": [
+          "spotify:artist:4zCH9qm4R2DADamUHMCa6O",
+          "spotify:artist:7F0SYkO9wyNY0aJFD2C1bD",
+          "spotify:artist:12CpR4SNDzVIlDoPSeNFeW"
+        ],
+        "artists_string": "Anirudh Ravichander, Ravi G, Shashaa Tirupati",
+        "album_name": "Naan Pizhai (From \"Kaathuvaakula Rendu Kaadhal\")",
+        "album_uri": "spotify:album:2R8F4wxJzpyQuN6fxUUwT1",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2734616b26a8fe36653518b1138",
+        "cover_art_filename": "Naan-Pizhai-From-Kaathuvaakula-Rendu-Kaadhal_Anirudh-Ravichander_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e024616b26a8fe36653518b1138",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048514616b26a8fe36653518b1138",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2734616b26a8fe36653518b1138",
+            "width": 640
+          }
+        ],
+        "duration_ms": 243570,
+        "duration_seconds": 243.57,
+        "duration_formatted": "4:03",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "77020661",
+        "content_rating": "NONE",
+        "added_at": "2025-04-10T09:22:47Z",
+        "added_at_formatted": "2025-04-10 09:22:47",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:48.699127"
+      }
+    },
+    {
+      "track_name": "Naan Nee",
+      "artists": "Santhosh Narayanan, Shakthisree Gopalan, Dhee",
+      "search_query": "Naan Nee Santhosh Narayanan, Shakthisree Gopalan, Dhee",
+      "status": "success",
+      "error": null,
+      "filename": "Naan-Nee-Santhosh-Narayanan-Shakthisree-Gopalan-Dhee.mp3",
+      "video_title": "Official : Naan Nee Full Song | Madras | Karthi, Catherine Tresa",
+      "metadata": {
+        "track_name": "Naan Nee",
+        "track_uri": "spotify:track:1AbSrAwrzuC3FcDXoYi3ED",
+        "artists": [
+          "Santhosh Narayanan",
+          "Shakthisree Gopalan",
+          "Dhee"
+        ],
+        "artist_uris": [
+          "spotify:artist:5FVBduYaeVBb6JIghza7v6",
+          "spotify:artist:7zAp0JbkavFg2rcMGvANtP",
+          "spotify:artist:77YvCBWe0tTLygpgSJsdOH"
+        ],
+        "artists_string": "Santhosh Narayanan, Shakthisree Gopalan, Dhee",
+        "album_name": "Madras (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:5dNLVOW1uSb3Pxb9eAI36Y",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b27399aa1a7878bfb3075d81ebc6",
+        "cover_art_filename": "Naan-Nee_Santhosh-Narayanan_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0299aa1a7878bfb3075d81ebc6",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485199aa1a7878bfb3075d81ebc6",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27399aa1a7878bfb3075d81ebc6",
+            "width": 640
+          }
+        ],
+        "duration_ms": 253582,
+        "duration_seconds": 253.582,
+        "duration_formatted": "4:13",
+        "track_number": 4,
+        "disc_number": 1,
+        "playcount": "79434111",
+        "content_rating": "NONE",
+        "added_at": "2025-04-10T09:25:27Z",
+        "added_at_formatted": "2025-04-10 09:25:27",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:48.786038"
+      }
+    },
+    {
+      "track_name": "Ennadi Maayavi Nee (From \"VadaChennai\")",
+      "artists": "Santhosh Narayanan, Vivek, Sid Sriram",
+      "search_query": "Ennadi Maayavi Nee (From \"VadaChennai\") Santhosh Narayanan, Vivek, Sid Sriram",
+      "status": "success",
+      "error": null,
+      "filename": "Ennadi-Maayavi-Nee-From-VadaChennai-Santhosh-Narayanan-Vivek-Sid-Sriram.mp3",
+      "video_title": "Ennadi Maayavi Nee (Lyric Video) VADACHENNAI |Dhanush |Vetri Maran | Santhosh Narayanan|",
+      "metadata": {
+        "track_name": "Ennadi Maayavi Nee (From \"VadaChennai\")",
+        "track_uri": "spotify:track:2UbUqswNGUYofPyX65o9e6",
+        "artists": [
+          "Santhosh Narayanan",
+          "Vivek",
+          "Sid Sriram"
+        ],
+        "artist_uris": [
+          "spotify:artist:5FVBduYaeVBb6JIghza7v6",
+          "spotify:artist:25Pa1Vz1ZuTHmXPiYeMcgx",
+          "spotify:artist:7qjJw7ZM2ekDSahLXPjIlN"
+        ],
+        "artists_string": "Santhosh Narayanan, Vivek, Sid Sriram",
+        "album_name": "VadaChennai (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:78uqEhVzpdnpBvFMezoxpA",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2732f5f3da3a28d4992f913a373",
+        "cover_art_filename": "Ennadi-Maayavi-Nee-From-VadaChennai_Santhosh-Narayanan_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e022f5f3da3a28d4992f913a373",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048512f5f3da3a28d4992f913a373",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2732f5f3da3a28d4992f913a373",
+            "width": 640
+          }
+        ],
+        "duration_ms": 251000,
+        "duration_seconds": 251.0,
+        "duration_formatted": "4:11",
+        "track_number": 5,
+        "disc_number": 1,
+        "playcount": "103011771",
+        "content_rating": "NONE",
+        "added_at": "2025-04-10T09:34:17Z",
+        "added_at_formatted": "2025-04-10 09:34:17",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:49.156625"
+      }
+    },
+    {
+      "track_name": "Nenjukkule",
+      "artists": "A.R. Rahman, Shakthisree Gopalan",
+      "search_query": "Nenjukkule A.R. Rahman, Shakthisree Gopalan",
+      "status": "success",
+      "error": null,
+      "filename": "Nenjukkule-AR-Rahman-Shakthisree-Gopalan.mp3",
+      "video_title": "Kadal - Nenjukkule Video | A.R. Rahman",
+      "metadata": {
+        "track_name": "Nenjukkule",
+        "track_uri": "spotify:track:7FEWG1bL31YAcnxJQvxJJO",
+        "artists": [
+          "A.R. Rahman",
+          "Shakthisree Gopalan"
+        ],
+        "artist_uris": [
+          "spotify:artist:1mYsTxnqsietFxj1OgoGbG",
+          "spotify:artist:7zAp0JbkavFg2rcMGvANtP"
+        ],
+        "artists_string": "A.R. Rahman, Shakthisree Gopalan",
+        "album_name": "Kadal (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:3j8iyHi0RxqLLV97ZGOCPm",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273aa88b57fe7e5cbe912644688",
+        "cover_art_filename": "Nenjukkule_AR-Rahman_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02aa88b57fe7e5cbe912644688",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851aa88b57fe7e5cbe912644688",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273aa88b57fe7e5cbe912644688",
+            "width": 640
+          }
+        ],
+        "duration_ms": 290000,
+        "duration_seconds": 290.0,
+        "duration_formatted": "4:50",
+        "track_number": 5,
+        "disc_number": 1,
+        "playcount": "49554952",
+        "content_rating": "NONE",
+        "added_at": "2025-04-10T09:43:31Z",
+        "added_at_formatted": "2025-04-10 09:43:31",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:49.217540"
+      }
+    },
+    {
+      "track_name": "Po Indru Neeyaga (From \"Velai Illa Pattadhaari\")",
+      "artists": "Anirudh Ravichander, Dhanush",
+      "search_query": "Po Indru Neeyaga (From \"Velai Illa Pattadhaari\") Anirudh Ravichander, Dhanush",
+      "status": "success",
+      "error": null,
+      "filename": "Po-Indru-Neeyaga-From-Velai-Illa-Pattadhaari-Anirudh-Ravichander-Dhanush.mp3",
+      "video_title": "Po Indru Neeyaga - Lyric Video | Velai Illa Pattadhaari | Anirudh Ravichander | Dhanush | #D25 #DnA",
+      "metadata": {
+        "track_name": "Po Indru Neeyaga (From \"Velai Illa Pattadhaari\")",
+        "track_uri": "spotify:track:45TUsDINS6CMvccCZ25YKk",
+        "artists": [
+          "Anirudh Ravichander",
+          "Dhanush"
+        ],
+        "artist_uris": [
+          "spotify:artist:4zCH9qm4R2DADamUHMCa6O",
+          "spotify:artist:2F3KtUVtrt2GLjcl6pB4cz"
+        ],
+        "artists_string": "Anirudh Ravichander, Dhanush",
+        "album_name": "Velai Illa Pattadhaari (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:2TOKHFSj7mBAKfnkrPGxq0",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2736c820dd351108727b45e6baf",
+        "cover_art_filename": "Po-Indru-Neeyaga-From-Velai-Illa-Pattadhaari_Anirudh-Ravichander_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e026c820dd351108727b45e6baf",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048516c820dd351108727b45e6baf",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2736c820dd351108727b45e6baf",
+            "width": 640
+          }
+        ],
+        "duration_ms": 223326,
+        "duration_seconds": 223.326,
+        "duration_formatted": "3:43",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "85770586",
+        "content_rating": "NONE",
+        "added_at": "2025-04-11T03:49:27Z",
+        "added_at_formatted": "2025-04-11 03:49:27",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:49.303978"
+      }
+    },
+    {
+      "track_name": "Thaensudare - From \"Lover\"",
+      "artists": "Sean Roldan, Shakthisree Gopalan",
+      "search_query": "Thaensudare - From \"Lover\" Sean Roldan, Shakthisree Gopalan",
+      "status": "success",
+      "error": null,
+      "filename": "Thaensudare-From-Lover-Sean-Roldan-Shakthisree-Gopalan.mp3",
+      "video_title": "Thaensudare Video Song | HDR | Lover | Manikandan | Sri Gouri Priya | Sean Roldan | Prabhuram Vyas",
+      "metadata": {
+        "track_name": "Thaensudare - From \"Lover\"",
+        "track_uri": "spotify:track:09ihDlGHKhAKrIqK6JUWNy",
+        "artists": [
+          "Sean Roldan",
+          "Shakthisree Gopalan"
+        ],
+        "artist_uris": [
+          "spotify:artist:3TUNkjIHkcvEy9oeK2D4hU",
+          "spotify:artist:7zAp0JbkavFg2rcMGvANtP"
+        ],
+        "artists_string": "Sean Roldan, Shakthisree Gopalan",
+        "album_name": "Lover (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:4QxOwQbVVQUNxZP4qFoy3U",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2734b715487182d6921ca847d64",
+        "cover_art_filename": "Thaensudare-From-Lover_Sean-Roldan_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e024b715487182d6921ca847d64",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048514b715487182d6921ca847d64",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2734b715487182d6921ca847d64",
+            "width": 640
+          }
+        ],
+        "duration_ms": 216500,
+        "duration_seconds": 216.5,
+        "duration_formatted": "3:36",
+        "track_number": 2,
+        "disc_number": 1,
+        "playcount": "33371455",
+        "content_rating": "NONE",
+        "added_at": "2025-04-25T08:44:23Z",
+        "added_at_formatted": "2025-04-25 08:44:23",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:49.367246"
+      }
+    },
+    {
+      "track_name": "Priyathama Priyathama",
+      "artists": "Chinmayi",
+      "search_query": "Priyathama Priyathama Chinmayi",
+      "status": "success",
+      "error": "[WinError 5] Access is denied: 'spotify_download_20250723_122441\\\\songs\\\\Priyathama-Priyathama-Chinmayi.temp.m4a' -> 'spotify_download_20250723_122441\\\\songs\\\\Priyathama-Priyathama-Chinmayi.m4a'",
+      "filename": "Priyathama-Priyathama-Chinmayi.mp3",
+      "video_title": "Priyathama Priyathama Full Video Song | MAJILI | Naga Chaitanya, Samantha | Thaman S",
+      "metadata": {
+        "track_name": "Priyathama Priyathama",
+        "track_uri": "spotify:track:4wHZiaLsuI9aQdWv4f3Esd",
+        "artists": [
+          "Chinmayi"
+        ],
+        "artist_uris": [
+          "spotify:artist:5UJ2sHO2ELrgW6aXeRLTQQ"
+        ],
+        "artists_string": "Chinmayi",
+        "album_name": "Majili",
+        "album_uri": "spotify:album:6a6ykv4C9RDMutKI4lR36T",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2738f89a24db2c00dde8554a279",
+        "cover_art_filename": "Priyathama-Priyathama_Chinmayi_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e028f89a24db2c00dde8554a279",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048518f89a24db2c00dde8554a279",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2738f89a24db2c00dde8554a279",
+            "width": 640
+          }
+        ],
+        "duration_ms": 245885,
+        "duration_seconds": 245.885,
+        "duration_formatted": "4:05",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "37542921",
+        "content_rating": "NONE",
+        "added_at": "2025-04-29T17:50:43Z",
+        "added_at_formatted": "2025-04-29 17:50:43",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:49.431457"
+      }
+    },
+    {
+      "track_name": "Neeyum Naanum",
+      "artists": "Anirudh Ravichander and Neeti Mohan",
+      "search_query": "Neeyum Naanum Anirudh Ravichander and Neeti Mohan",
+      "status": "success",
+      "error": null,
+      "filename": "Neeyum-Naanum-Anirudh-Ravichander-and-Neeti-Mohan.mp3",
+      "video_title": "Naanum Rowdy Dhaan - Neeyum Naanum | Lyric Video | Neeti Mohan, Anirudh | Thamarai | Vignesh Shivan",
+      "metadata": {
+        "track_name": "Neeyum Naanum",
+        "track_uri": "spotify:track:7JEvkDd5QsVH4qZO4Q2gNO",
+        "artists": [
+          "Anirudh Ravichander and Neeti Mohan"
+        ],
+        "artist_uris": [
+          "spotify:artist:3nUYKYYtrA7Nw2tdYslLUE"
+        ],
+        "artists_string": "Anirudh Ravichander and Neeti Mohan",
+        "album_name": "Wunderboy Anirudh",
+        "album_uri": "spotify:album:607wdRrazikLQyGPbQWkbu",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2738f94bd8e3d094fc64ec2bb0c",
+        "cover_art_filename": "Neeyum-Naanum_Anirudh-Ravichander-and-Neeti-Mohan_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e028f94bd8e3d094fc64ec2bb0c",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048518f94bd8e3d094fc64ec2bb0c",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2738f94bd8e3d094fc64ec2bb0c",
+            "width": 640
+          }
+        ],
+        "duration_ms": 301950,
+        "duration_seconds": 301.95,
+        "duration_formatted": "5:01",
+        "track_number": 6,
+        "disc_number": 1,
+        "playcount": "30208959",
+        "content_rating": "NONE",
+        "added_at": "2025-05-20T10:43:23Z",
+        "added_at_formatted": "2025-05-20 10:43:23",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:49.532849"
+      }
+    },
+    {
+      "track_name": "Mayilaanjiye - From \"Sivappu Manjal Pachai\"",
+      "artists": "Siddhu Kumar, Anand Aravindakshan, Shashaa Tirupati",
+      "search_query": "Mayilaanjiye - From \"Sivappu Manjal Pachai\" Siddhu Kumar, Anand Aravindakshan, Shashaa Tirupati",
+      "status": "success",
+      "error": null,
+      "filename": "Mayilaanjiye-From-Sivappu-Manjal-Pachai-Siddhu-Kumar-Anand-Aravindakshan-Shashaa-Tirupati.mp3",
+      "video_title": "Sivappu Manjal Pachai | Mayilaanjiye Video Song | Siddharth, G.V.Prakash Kumar | Sasi | Siddhu Kumar",
+      "metadata": {
+        "track_name": "Mayilaanjiye - From \"Sivappu Manjal Pachai\"",
+        "track_uri": "spotify:track:737TXp5R8umZixCDZgDY57",
+        "artists": [
+          "Siddhu Kumar",
+          "Anand Aravindakshan",
+          "Shashaa Tirupati"
+        ],
+        "artist_uris": [
+          "spotify:artist:652AxOhhHWM3oxqY82UhQ9",
+          "spotify:artist:03Q99mwmSqlbQo2iGtpE0g",
+          "spotify:artist:12CpR4SNDzVIlDoPSeNFeW"
+        ],
+        "artists_string": "Siddhu Kumar, Anand Aravindakshan, Shashaa Tirupati",
+        "album_name": "Mayilaanjiye (From \"Sivappu Manjal Pachai\")",
+        "album_uri": "spotify:album:1SCBxsvyynl58LQsuTMVrc",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273b985531caa98ffbe03a1d898",
+        "cover_art_filename": "Mayilaanjiye-From-Sivappu-Manjal-Pachai_Siddhu-Kumar_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02b985531caa98ffbe03a1d898",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851b985531caa98ffbe03a1d898",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273b985531caa98ffbe03a1d898",
+            "width": 640
+          }
+        ],
+        "duration_ms": 215611,
+        "duration_seconds": 215.611,
+        "duration_formatted": "3:35",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "34326541",
+        "content_rating": "NONE",
+        "added_at": "2025-05-22T10:47:10.456Z",
+        "added_at_formatted": "2025-05-22 10:47:10",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:49.603185"
+      }
+    },
+    {
+      "track_name": "Muththa Mazhai (Reprise)",
+      "artists": "A.R. Rahman, Chinmayi, Siva Ananth",
+      "search_query": "Muththa Mazhai (Reprise) A.R. Rahman, Chinmayi, Siva Ananth",
+      "status": "success",
+      "error": null,
+      "filename": "Muththa-Mazhai-Reprise-AR-Rahman-Chinmayi-Siva-Ananth.mp3",
+      "video_title": "Muththa Mazhai - Chinmayi Performance | Thug Life | Kamal Haasan | Mani Ratnam | STR | AR Rahman",
+      "metadata": {
+        "track_name": "Muththa Mazhai (Reprise)",
+        "track_uri": "spotify:track:0nrJ7jsUFR0pDHV6NvKJje",
+        "artists": [
+          "A.R. Rahman",
+          "Chinmayi",
+          "Siva Ananth"
+        ],
+        "artist_uris": [
+          "spotify:artist:1mYsTxnqsietFxj1OgoGbG",
+          "spotify:artist:5UJ2sHO2ELrgW6aXeRLTQQ",
+          "spotify:artist:5fZe0ixZMgYwu5BLCNvMDC"
+        ],
+        "artists_string": "A.R. Rahman, Chinmayi, Siva Ananth",
+        "album_name": "Thug Life (Tamil)",
+        "album_uri": "spotify:album:1q6GzjsUS9kyQmEDH7D1Ak",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b27379dd2165f2180c79713bfe4a",
+        "cover_art_filename": "Muththa-Mazhai-Reprise_AR-Rahman_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0279dd2165f2180c79713bfe4a",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485179dd2165f2180c79713bfe4a",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27379dd2165f2180c79713bfe4a",
+            "width": 640
+          }
+        ],
+        "duration_ms": 240264,
+        "duration_seconds": 240.264,
+        "duration_formatted": "4:00",
+        "track_number": 10,
+        "disc_number": 1,
+        "playcount": "14826692",
+        "content_rating": "NONE",
+        "added_at": "2025-06-12T07:41:14Z",
+        "added_at_formatted": "2025-06-12 07:41:14",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:49.723269"
+      }
+    },
+    {
+      "track_name": "Pularaadha (From \"Dear Comrade\")",
+      "artists": "Sid Sriram, Aishwarya Ravichandran",
+      "search_query": "Pularaadha (From \"Dear Comrade\") Sid Sriram, Aishwarya Ravichandran",
+      "status": "success",
+      "error": null,
+      "filename": "Pularaadha-From-Dear-Comrade-Sid-Sriram-Aishwarya-Ravichandran.mp3",
+      "video_title": "Pularaadha Video Song | Dear Comrade Tamil |  Vijay Deverakonda, Rashmika, Bharat",
+      "metadata": {
+        "track_name": "Pularaadha (From \"Dear Comrade\")",
+        "track_uri": "spotify:track:5RWS9spA1fFIrbqtfWkoan",
+        "artists": [
+          "Sid Sriram",
+          "Aishwarya Ravichandran"
+        ],
+        "artist_uris": [
+          "spotify:artist:7qjJw7ZM2ekDSahLXPjIlN",
+          "spotify:artist:0Mbxm07Hiahy2xSMtesff8"
+        ],
+        "artists_string": "Sid Sriram, Aishwarya Ravichandran",
+        "album_name": "Pularaadha (From \"Dear Comrade\")",
+        "album_uri": "spotify:album:2JtbFtUK3xZPwUHGH3hgrN",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2731ecf3d12f23f71ce2e60f39d",
+        "cover_art_filename": "Pularaadha-From-Dear-Comrade_Sid-Sriram_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e021ecf3d12f23f71ce2e60f39d",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048511ecf3d12f23f71ce2e60f39d",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2731ecf3d12f23f71ce2e60f39d",
+            "width": 640
+          }
+        ],
+        "duration_ms": 261571,
+        "duration_seconds": 261.571,
+        "duration_formatted": "4:21",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "16087227",
+        "content_rating": "NONE",
+        "added_at": "2025-06-21T03:39:56Z",
+        "added_at_formatted": "2025-06-21 03:39:56",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:49.797300"
+      }
+    },
+    {
+      "track_name": "Uyire",
+      "artists": "Sid Sriram, Ankit Menon, Vinayak Sasikumar",
+      "search_query": "Uyire Sid Sriram, Ankit Menon, Vinayak Sasikumar",
+      "status": "success",
+      "error": null,
+      "filename": "Uyire-Sid-Sriram-Ankit-Menon-Vinayak-Sasikumar.mp3",
+      "video_title": "UYIRE - Video Song Ft. Sid Sriram | Gauthamante Radham | Neeraj Madhav |Ankit Menon |Anand Menon |4K",
+      "metadata": {
+        "track_name": "Uyire",
+        "track_uri": "spotify:track:6kPYrnBJubso1t47lbXvNU",
+        "artists": [
+          "Sid Sriram",
+          "Ankit Menon",
+          "Vinayak Sasikumar"
+        ],
+        "artist_uris": [
+          "spotify:artist:7qjJw7ZM2ekDSahLXPjIlN",
+          "spotify:artist:4b1Ua3aYPP6ppvnqZdOHjV",
+          "spotify:artist:51jfCC7m2rTGPDz06E2nvS"
+        ],
+        "artists_string": "Sid Sriram, Ankit Menon, Vinayak Sasikumar",
+        "album_name": "Uyire (From \"Gauthamante Radham\")",
+        "album_uri": "spotify:album:0dCwYrUoJ5HynQ1L9DcFAw",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273928b34b5304b6f34f59ba978",
+        "cover_art_filename": "Uyire_Sid-Sriram_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02928b34b5304b6f34f59ba978",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851928b34b5304b6f34f59ba978",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273928b34b5304b6f34f59ba978",
+            "width": 640
+          }
+        ],
+        "duration_ms": 199921,
+        "duration_seconds": 199.921,
+        "duration_formatted": "3:19",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "56687178",
+        "content_rating": "NONE",
+        "added_at": "2025-06-24T18:13:01Z",
+        "added_at_formatted": "2025-06-24 18:13:01",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:49.920102"
+      }
+    },
+    {
+      "track_name": "Uravu",
+      "artists": "Sean Roldan, Padmapriya Raghavan",
+      "search_query": "Uravu Sean Roldan, Padmapriya Raghavan",
+      "status": "success",
+      "error": null,
+      "filename": "Uravu-Sean-Roldan-Padmapriya-Raghavan.mp3",
+      "video_title": "Uravu",
+      "metadata": {
+        "track_name": "Uravu",
+        "track_uri": "spotify:track:3bXhstkcy4TU5ZuOuJWOwy",
+        "artists": [
+          "Sean Roldan",
+          "Padmapriya Raghavan"
+        ],
+        "artist_uris": [
+          "spotify:artist:3TUNkjIHkcvEy9oeK2D4hU",
+          "spotify:artist:2E5sS9FjfJBCgckaoajQSm"
+        ],
+        "artists_string": "Sean Roldan, Padmapriya Raghavan",
+        "album_name": "Modern Love (Chennai) [Original Series Soundtrack]",
+        "album_uri": "spotify:album:3YdrTcu1YnQAcjJwnNeYgI",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2739d32fb96c6df1ab718d1b265",
+        "cover_art_filename": "Uravu_Sean-Roldan_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e029d32fb96c6df1ab718d1b265",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048519d32fb96c6df1ab718d1b265",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2739d32fb96c6df1ab718d1b265",
+            "width": 640
+          }
+        ],
+        "duration_ms": 194307,
+        "duration_seconds": 194.307,
+        "duration_formatted": "3:14",
+        "track_number": 8,
+        "disc_number": 1,
+        "playcount": "2298831",
+        "content_rating": "NONE",
+        "added_at": "2025-06-24T18:13:33Z",
+        "added_at_formatted": "2025-06-24 18:13:33",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:50.022465"
+      }
+    },
+    {
+      "track_name": "Nenjame (From \"Doctor\")",
+      "artists": "Anirudh Ravichander",
+      "search_query": "Nenjame (From \"Doctor\") Anirudh Ravichander",
+      "status": "success",
+      "error": null,
+      "filename": "Nenjame-From-Doctor-Anirudh-Ravichander.mp3",
+      "video_title": "Doctor - Nenjame Music Video | Sivakarthikeyan | Anirudh Ravichander | Nelson Dilipkumar",
+      "metadata": {
+        "track_name": "Nenjame (From \"Doctor\")",
+        "track_uri": "spotify:track:491DwnBb3MA8RzyA2E0Skt",
+        "artists": [
+          "Anirudh Ravichander"
+        ],
+        "artist_uris": [
+          "spotify:artist:4zCH9qm4R2DADamUHMCa6O"
+        ],
+        "artists_string": "Anirudh Ravichander",
+        "album_name": "Nenjame (From \"Doctor\")",
+        "album_uri": "spotify:album:2zuRrDaYOD7Ch9CgOi4g82",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273f250602224bc05971554a3b3",
+        "cover_art_filename": "Nenjame-From-Doctor_Anirudh-Ravichander_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02f250602224bc05971554a3b3",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851f250602224bc05971554a3b3",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273f250602224bc05971554a3b3",
+            "width": 640
+          }
+        ],
+        "duration_ms": 256500,
+        "duration_seconds": 256.5,
+        "duration_formatted": "4:16",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "27494814",
+        "content_rating": "NONE",
+        "added_at": "2025-06-24T18:23:39Z",
+        "added_at_formatted": "2025-06-24 18:23:39",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:50.132152"
+      }
+    },
+    {
+      "track_name": "Vizhigalil Oru Vaanavil",
+      "artists": "G. V. Prakash, Saindhavi",
+      "search_query": "Vizhigalil Oru Vaanavil G. V. Prakash, Saindhavi",
+      "status": "success",
+      "error": null,
+      "filename": "Vizhigalil-Oru-Vaanavil-G-V-Prakash-Saindhavi.mp3",
+      "video_title": "Deiva Thiirumagal | Vizhigalil Oru Vaanavil Song | Vikram, Anushka, Amala Paul | G.V. Prakash Kumar",
+      "metadata": {
+        "track_name": "Vizhigalil Oru Vaanavil",
+        "track_uri": "spotify:track:4ccJUGIKd3Ul2IUYetNlWB",
+        "artists": [
+          "G. V. Prakash",
+          "Saindhavi"
+        ],
+        "artist_uris": [
+          "spotify:artist:5VVN3xZw1i2qihfITZlvCZ",
+          "spotify:artist:6rEXjeIJ0wL6BFdo8CRcit"
+        ],
+        "artists_string": "G. V. Prakash, Saindhavi",
+        "album_name": "Deiva Thiirumagal (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:0HFtCfwi3g3beOwAFDzgiJ",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2739abc7a13ea0580d0f7645e55",
+        "cover_art_filename": "Vizhigalil-Oru-Vaanavil_G-V-Prakash_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e029abc7a13ea0580d0f7645e55",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048519abc7a13ea0580d0f7645e55",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2739abc7a13ea0580d0f7645e55",
+            "width": 640
+          }
+        ],
+        "duration_ms": 362533,
+        "duration_seconds": 362.533,
+        "duration_formatted": "6:02",
+        "track_number": 2,
+        "disc_number": 1,
+        "playcount": "27298399",
+        "content_rating": "NONE",
+        "added_at": "2025-06-24T18:30:48Z",
+        "added_at_formatted": "2025-06-24 18:30:48",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:50.217604"
+      }
+    },
+    {
+      "track_name": "Moongil Kaadugalae (From \"Samurai\")",
+      "artists": "Hariharan, Tippu",
+      "search_query": "Moongil Kaadugalae (From \"Samurai\") Hariharan, Tippu",
+      "status": "success",
+      "error": null,
+      "filename": "Moongil-Kaadugalae-From-Samurai-Hariharan-Tippu.mp3",
+      "video_title": "Vikram Songs | Moongil Kaadugale Video Song 4K | Samurai Tamil Movie | Harris Jayaraj",
+      "metadata": {
+        "track_name": "Moongil Kaadugalae (From \"Samurai\")",
+        "track_uri": "spotify:track:4xspsjZZOI3rKgix2vTADv",
+        "artists": [
+          "Hariharan",
+          "Tippu"
+        ],
+        "artist_uris": [
+          "spotify:artist:2NoJ7NuNs9nyj8Thoh1kbu",
+          "spotify:artist:0PykiHCcDsMPRV7s67qZ1B"
+        ],
+        "artists_string": "Hariharan, Tippu",
+        "album_name": "Hariharan's Melodies",
+        "album_uri": "spotify:album:6uWBnJYyYJRNjWOtgNx1C3",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273ab974609336e7b4033f2147f",
+        "cover_art_filename": "Moongil-Kaadugalae-From-Samurai_Hariharan_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02ab974609336e7b4033f2147f",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851ab974609336e7b4033f2147f",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273ab974609336e7b4033f2147f",
+            "width": 640
+          }
+        ],
+        "duration_ms": 379637,
+        "duration_seconds": 379.637,
+        "duration_formatted": "6:19",
+        "track_number": 8,
+        "disc_number": 1,
+        "playcount": "20005995",
+        "content_rating": "NONE",
+        "added_at": "2025-06-24T18:48:36Z",
+        "added_at_formatted": "2025-06-24 18:48:36",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:50.325740"
+      }
+    },
+    {
+      "track_name": "Jodi Nilave - The Pain of Tamizh",
+      "artists": "Anirudh Ravichander, Dhanush, Shweta Mohan",
+      "search_query": "Jodi Nilave - The Pain of Tamizh Anirudh Ravichander, Dhanush, Shweta Mohan",
+      "status": "success",
+      "error": null,
+      "filename": "Jodi-Nilave-The-Pain-of-Tamizh-Anirudh-Ravichander-Dhanush-Shweta-Mohan.mp3",
+      "video_title": "Thangamagan - Jodi Nilave Video | Anirudh Ravichander | Dhanush",
+      "metadata": {
+        "track_name": "Jodi Nilave - The Pain of Tamizh",
+        "track_uri": "spotify:track:55OWBVrrcsWEqs56IG8YIw",
+        "artists": [
+          "Anirudh Ravichander",
+          "Dhanush",
+          "Shweta Mohan"
+        ],
+        "artist_uris": [
+          "spotify:artist:4zCH9qm4R2DADamUHMCa6O",
+          "spotify:artist:2F3KtUVtrt2GLjcl6pB4cz",
+          "spotify:artist:1rdQOMFFtoskDXXUVjiGo9"
+        ],
+        "artists_string": "Anirudh Ravichander, Dhanush, Shweta Mohan",
+        "album_name": "Thangamagan (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:6L4ZkUiJTwo2e1E9e31ds3",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b27313b7a8eeb130eb275fb3935f",
+        "cover_art_filename": "Jodi-Nilave-The-Pain-of-Tamizh_Anirudh-Ravichander_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0213b7a8eeb130eb275fb3935f",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485113b7a8eeb130eb275fb3935f",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27313b7a8eeb130eb275fb3935f",
+            "width": 640
+          }
+        ],
+        "duration_ms": 178481,
+        "duration_seconds": 178.481,
+        "duration_formatted": "2:58",
+        "track_number": 4,
+        "disc_number": 1,
+        "playcount": "7786297",
+        "content_rating": "NONE",
+        "added_at": "2025-06-25T13:15:45Z",
+        "added_at_formatted": "2025-06-25 13:15:45",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:50.448991"
+      }
+    },
+    {
+      "track_name": "Kannaana Kanne",
+      "artists": "Anirudh Ravichander,Sean Roldan",
+      "search_query": "Kannaana Kanne Anirudh Ravichander,Sean Roldan",
+      "status": "success",
+      "error": null,
+      "filename": "Kannaana-Kanne-Anirudh-RavichanderSean-Roldan.mp3",
+      "video_title": "Naanum Rowdy Dhaan - Kannaana Kanne | Video Song | Sean Roldan | Anirudh | Vignesh Shivan",
+      "metadata": {
+        "track_name": "Kannaana Kanne",
+        "track_uri": "spotify:track:4yBnYuHh2ygMxtcoCUp6A1",
+        "artists": [
+          "Anirudh Ravichander,Sean Roldan"
+        ],
+        "artist_uris": [
+          "spotify:artist:6klaJWjo4RX7yrLHBUZJRX"
+        ],
+        "artists_string": "Anirudh Ravichander,Sean Roldan",
+        "album_name": "Wunderboy Anirudh",
+        "album_uri": "spotify:album:607wdRrazikLQyGPbQWkbu",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2738f94bd8e3d094fc64ec2bb0c",
+        "cover_art_filename": "Kannaana-Kanne_Anirudh-RavichanderSean-Roldan_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e028f94bd8e3d094fc64ec2bb0c",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048518f94bd8e3d094fc64ec2bb0c",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2738f94bd8e3d094fc64ec2bb0c",
+            "width": 640
+          }
+        ],
+        "duration_ms": 267340,
+        "duration_seconds": 267.34,
+        "duration_formatted": "4:27",
+        "track_number": 5,
+        "disc_number": 1,
+        "playcount": "40326634",
+        "content_rating": "NONE",
+        "added_at": "2025-06-25T14:14:30Z",
+        "added_at_formatted": "2025-06-25 14:14:30",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:50.565918"
+      }
+    },
+    {
+      "track_name": "Para Para",
+      "artists": "N.R. Raghunanthan, G. V. Prakash",
+      "search_query": "Para Para N.R. Raghunanthan, G. V. Prakash",
+      "status": "success",
+      "error": null,
+      "filename": "Para-Para-NR-Raghunanthan-G-V-Prakash.mp3",
+      "video_title": "Neerparavai - Para Para Video | N.R. Raghunanthan",
+      "metadata": {
+        "track_name": "Para Para",
+        "track_uri": "spotify:track:5uhAAyQlgzOgghJp5XSigQ",
+        "artists": [
+          "N.R. Raghunanthan",
+          "G. V. Prakash"
+        ],
+        "artist_uris": [
+          "spotify:artist:6jRzzp1nD0wZFy6Uap8Aeh",
+          "spotify:artist:5VVN3xZw1i2qihfITZlvCZ"
+        ],
+        "artists_string": "N.R. Raghunanthan, G. V. Prakash",
+        "album_name": "Neerparavai (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:59qN41HKbo8P4hlcgBT1EH",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2739894164dbb5dbf32c08c2d64",
+        "cover_art_filename": "Para-Para_NR-Raghunanthan_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e029894164dbb5dbf32c08c2d64",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048519894164dbb5dbf32c08c2d64",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2739894164dbb5dbf32c08c2d64",
+            "width": 640
+          }
+        ],
+        "duration_ms": 319026,
+        "duration_seconds": 319.026,
+        "duration_formatted": "5:19",
+        "track_number": 2,
+        "disc_number": 1,
+        "playcount": "22058549",
+        "content_rating": "NONE",
+        "added_at": "2025-07-02T06:40:17Z",
+        "added_at_formatted": "2025-07-02 06:40:17",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:50.684640"
+      }
+    },
+    {
+      "track_name": "Po Urave",
+      "artists": "Sid Sriram",
+      "search_query": "Po Urave Sid Sriram",
+      "status": "success",
+      "error": null,
+      "filename": "Po-Urave-Sid-Sriram.mp3",
+      "video_title": "Po Urave Full Video Song | Kaatrin Mozhi | Jyotika | A H Kaashif | Madhan Karky | Radhamohan",
+      "metadata": {
+        "track_name": "Po Urave",
+        "track_uri": "spotify:track:3qYQx0NDebwkU6A2P5bpuz",
+        "artists": [
+          "Sid Sriram"
+        ],
+        "artist_uris": [
+          "spotify:artist:7qjJw7ZM2ekDSahLXPjIlN"
+        ],
+        "artists_string": "Sid Sriram",
+        "album_name": "Kaatrin Mozhi",
+        "album_uri": "spotify:album:23CtjSYJ1LYlrhBDbjuOLS",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2734c6a673f80125950703fd6be",
+        "cover_art_filename": "Po-Urave_Sid-Sriram_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e024c6a673f80125950703fd6be",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048514c6a673f80125950703fd6be",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2734c6a673f80125950703fd6be",
+            "width": 640
+          }
+        ],
+        "duration_ms": 202857,
+        "duration_seconds": 202.857,
+        "duration_formatted": "3:22",
+        "track_number": 2,
+        "disc_number": 1,
+        "playcount": "44909309",
+        "content_rating": "NONE",
+        "added_at": "2025-07-03T06:37:27Z",
+        "added_at_formatted": "2025-07-03 06:37:27",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:50.808039"
+      }
+    },
+    {
+      "track_name": "The Karma Theme - From \"U Turn\"",
+      "artists": "Anirudh Ravichander",
+      "search_query": "The Karma Theme - From \"U Turn\" Anirudh Ravichander",
+      "status": "success",
+      "error": null,
+      "filename": "The-Karma-Theme-From-U-Turn-Anirudh-Ravichander.mp3",
+      "video_title": "U Turn - The Karma Theme (Telugu) - Samantha | Anirudh Ravichander | Pawan Kumar",
+      "metadata": {
+        "track_name": "The Karma Theme - From \"U Turn\"",
+        "track_uri": "spotify:track:0SOAuohGmdPWKnBxGiwJkn",
+        "artists": [
+          "Anirudh Ravichander"
+        ],
+        "artist_uris": [
+          "spotify:artist:4zCH9qm4R2DADamUHMCa6O"
+        ],
+        "artists_string": "Anirudh Ravichander",
+        "album_name": "The Karma Theme (From \"U Turn\")",
+        "album_uri": "spotify:album:1NIoy9oZqnLqbhvF63GQUP",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273cfc49d66056314508de8ce5f",
+        "cover_art_filename": "The-Karma-Theme-From-U-Turn_Anirudh-Ravichander_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02cfc49d66056314508de8ce5f",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851cfc49d66056314508de8ce5f",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273cfc49d66056314508de8ce5f",
+            "width": 640
+          }
+        ],
+        "duration_ms": 214500,
+        "duration_seconds": 214.5,
+        "duration_formatted": "3:34",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "5891969",
+        "content_rating": "NONE",
+        "added_at": "2025-07-03T06:38:31Z",
+        "added_at_formatted": "2025-07-03 06:38:31",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:50.892901"
+      }
+    },
+    {
+      "track_name": "Kaariga",
+      "artists": "Sundaramurthy K.S., Sid Sriram, Madhan Karky",
+      "search_query": "Kaariga Sundaramurthy K.S., Sid Sriram, Madhan Karky",
+      "status": "success",
+      "error": null,
+      "filename": "Kaariga-Sundaramurthy-KS-Sid-Sriram-Madhan-Karky.mp3",
+      "video_title": "Airaa | Kaariga Lyric Video | Nayanthara,Kalaiyarasan | Sarjun KM | Sundaramurthy KS | Madhan Karky",
+      "metadata": {
+        "track_name": "Kaariga",
+        "track_uri": "spotify:track:6tV6osBgYrXUt6LgxMT2V0",
+        "artists": [
+          "Sundaramurthy K.S.",
+          "Sid Sriram",
+          "Madhan Karky"
+        ],
+        "artist_uris": [
+          "spotify:artist:5jX2iG007T8zGsQiuuJY40",
+          "spotify:artist:7qjJw7ZM2ekDSahLXPjIlN",
+          "spotify:artist:0MC4IRJmruzbwPInw7vmL7"
+        ],
+        "artists_string": "Sundaramurthy K.S., Sid Sriram, Madhan Karky",
+        "album_name": "Airaa (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:59uRad1RnuKRaqvakiJ4bc",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273c95a9ad744c4beac23cb176a",
+        "cover_art_filename": "Kaariga_Sundaramurthy-KS_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02c95a9ad744c4beac23cb176a",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851c95a9ad744c4beac23cb176a",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273c95a9ad744c4beac23cb176a",
+            "width": 640
+          }
+        ],
+        "duration_ms": 258947,
+        "duration_seconds": 258.947,
+        "duration_formatted": "4:18",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "2306997",
+        "content_rating": "NONE",
+        "added_at": "2025-07-03T07:02:27Z",
+        "added_at_formatted": "2025-07-03 07:02:27",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:50.988358"
+      }
+    },
+    {
+      "track_name": "Po Po Yen",
+      "artists": "Sid Sriram, A H Kaashif",
+      "search_query": "Po Po Yen Sid Sriram, A H Kaashif",
+      "status": "success",
+      "error": null,
+      "filename": "Po-Po-Yen-Sid-Sriram-A-H-Kaashif.mp3",
+      "video_title": "போ போ யென் || Sid Sriram || Po Po Yen || A H Kaashif | || Official Music Video ||",
+      "metadata": {
+        "track_name": "Po Po Yen",
+        "track_uri": "spotify:track:6Q5Qwg86SsmUhlWlVFc1Le",
+        "artists": [
+          "Sid Sriram",
+          "A H Kaashif"
+        ],
+        "artist_uris": [
+          "spotify:artist:7qjJw7ZM2ekDSahLXPjIlN",
+          "spotify:artist:3QouDKKier0OwfJnSOvvEI"
+        ],
+        "artists_string": "Sid Sriram, A H Kaashif",
+        "album_name": "Po Po Yen - Single",
+        "album_uri": "spotify:album:09GPze3xA8OTTXJVflbstY",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b27328c0799c85e6a3690f696b57",
+        "cover_art_filename": "Po-Po-Yen_Sid-Sriram_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0228c0799c85e6a3690f696b57",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485128c0799c85e6a3690f696b57",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27328c0799c85e6a3690f696b57",
+            "width": 640
+          }
+        ],
+        "duration_ms": 246986,
+        "duration_seconds": 246.986,
+        "duration_formatted": "4:06",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "19050741",
+        "content_rating": "NONE",
+        "added_at": "2025-07-03T09:54:20Z",
+        "added_at_formatted": "2025-07-03 09:54:20",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:51.168035"
+      }
+    },
+    {
+      "track_name": "Endha Pakkam",
+      "artists": "Radhul Nambiar, Chinmayi",
+      "search_query": "Endha Pakkam Radhul Nambiar, Chinmayi",
+      "status": "success",
+      "error": null,
+      "filename": "Endha-Pakkam-Radhul-Nambiar-Chinmayi.mp3",
+      "video_title": "Dharmadurai - Endha Pakkam  Video Song | #NationalAward |  Vairamuthu | Yuvan Shakar Raja",
+      "metadata": {
+        "track_name": "Endha Pakkam",
+        "track_uri": "spotify:track:1c9KP5bpnMRVJs20ONXa5a",
+        "artists": [
+          "Radhul Nambiar",
+          "Chinmayi"
+        ],
+        "artist_uris": [
+          "spotify:artist:7eQfgtT1aexNfUdoJtYJ3Q",
+          "spotify:artist:5UJ2sHO2ELrgW6aXeRLTQQ"
+        ],
+        "artists_string": "Radhul Nambiar, Chinmayi",
+        "album_name": "Dharmadurai (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:4R9fXt3RtVdVioqZjhjQll",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273ae45c8e45e7d77a1c5ed8089",
+        "cover_art_filename": "Endha-Pakkam_Radhul-Nambiar_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02ae45c8e45e7d77a1c5ed8089",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851ae45c8e45e7d77a1c5ed8089",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273ae45c8e45e7d77a1c5ed8089",
+            "width": 640
+          }
+        ],
+        "duration_ms": 300500,
+        "duration_seconds": 300.5,
+        "duration_formatted": "5:00",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "13644874",
+        "content_rating": "NONE",
+        "added_at": "2025-07-07T11:08:43Z",
+        "added_at_formatted": "2025-07-07 11:08:43",
+        "added_by_name": "Priii",
+        "added_by_username": "31o55ircqhvmxjnygblwoahg7oza",
+        "added_by_avatar_url": "https://i.scdn.co/image/ab6775700000ee85ead82cf8d9d06ec1acc266a3",
+        "processed_at": "2025-07-23T12:25:51.264811"
+      }
+    }
+  ]
+}
