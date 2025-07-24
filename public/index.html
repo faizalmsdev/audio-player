@@ -53,6 +53,9 @@
       flex: 1;
       min-width: 200px;
       max-width: 400px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
 
     #searchInput {
@@ -100,6 +103,34 @@
     #shuffleBtn:hover {
       transform: translateY(-2px);
       box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3);
+    }
+
+    #shuffleBtn.shuffle-small {
+      width: 36px;
+      height: 36px;
+      min-width: 36px;
+      min-height: 36px;
+      padding: 0;
+      border: none;
+      border-radius: 50%;
+      background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+      color: white;
+      cursor: pointer;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      box-shadow: none;
+    }
+    #shuffleBtn.shuffle-small::before {
+      content: '🔀';
+      font-size: 18px;
+      display: block;
+    }
+    #shuffleBtn.shuffle-small:hover {
+      transform: translateY(-2px) scale(1.08);
+      box-shadow: 0 4px 12px rgba(255, 107, 107, 0.25);
     }
 
     .playlist-buttons {
@@ -605,11 +636,13 @@
 <div class="header">
   <h1>🎵 Songify</h1>
   <div class="controls-top">
-    <div class="search-container">
-      <input type="text" id="searchInput" placeholder="Search songs, artists, albums...">
-      <span class="search-icon">🔍</span>
+    <div class="search-container" style="display: flex; align-items: center; gap: 8px;">
+      <div style="flex: 1; position: relative;">
+        <input type="text" id="searchInput" placeholder="Search songs, artists, albums...">
+        <span class="search-icon">🔍</span>
+      </div>
+      <button id="shuffleBtn" class="shuffle-small" title="Shuffle"></button>
     </div>
-    <button id="shuffleBtn">🔀 Shuffle</button>
   </div>
   <div class="playlist-buttons" id="playlistButtons"></div>
 </div>
@@ -952,9 +985,11 @@ function setActivePlaylist(playlistName) {
   }
 }
 
+let showAllPlaylists = false;
 function setupPlaylists(playlists) {
   playlistButtonsDiv.innerHTML = '';
 
+  const playlistNames = Object.keys(playlists);
   const allBtn = document.createElement('button');
   allBtn.className = 'playlist-btn active';
   allBtn.textContent = '🎵 All Songs';
@@ -965,7 +1000,9 @@ function setupPlaylists(playlists) {
   };
   playlistButtonsDiv.appendChild(allBtn);
 
-  for (const playlistName in playlists) {
+  // Show only the first playlist by default
+  let visiblePlaylists = showAllPlaylists ? playlistNames : playlistNames.slice(0, 1);
+  visiblePlaylists.forEach((playlistName) => {
     const btn = document.createElement('button');
     btn.className = 'playlist-btn';
     btn.textContent = playlistName;
@@ -976,6 +1013,18 @@ function setupPlaylists(playlists) {
       displaySongs(songs, searchInput.value);
     };
     playlistButtonsDiv.appendChild(btn);
+  });
+
+  // Add toggle button if there are more than one playlist
+  if (playlistNames.length > 1) {
+    const toggleBtn = document.createElement('button');
+    toggleBtn.className = 'playlist-btn';
+    toggleBtn.textContent = showAllPlaylists ? 'Hide Playlists' : 'Show All Playlists';
+    toggleBtn.onclick = () => {
+      showAllPlaylists = !showAllPlaylists;
+      setupPlaylists(playlists);
+    };
+    playlistButtonsDiv.appendChild(toggleBtn);
   }
 }
 
