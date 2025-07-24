@@ -1,0 +1,1489 @@
+{
+  "download_info": {
+    "timestamp": "2025-07-24 15:05:02",
+    "source_url": "https://open.spotify.com/playlist/37i9dQZF1DX1i3hvzHpcQV?si=cb3c279b933e400f",
+    "total_valid_tracks": 50,
+    "successful_downloads": 21,
+    "failed_downloads": 4,
+    "skipped_downloads": 0,
+    "success_rate": "42.0%",
+    "songs_folder": "spotify_download_20250724_145810\\songs",
+    "cover_art_folder": "spotify_download_20250724_145810\\cover_art",
+    "cover_art_downloaded": 50,
+    "error_handling_enabled": true
+  },
+  "download_results": [
+    {
+      "track_name": "Monica (From \"Coolie\") (Tamil)",
+      "artists": "Anirudh Ravichander, Sublahshini, Asal Kolaar, Vishnu Edavan",
+      "search_query": "Monica (From \"Coolie\") (Tamil) Anirudh Ravichander, Sublahshini, Asal Kolaar, Vishnu Edavan",
+      "status": "success",
+      "error": null,
+      "filename": "Monica-From-Coolie-Tamil-Anirudh-Ravichander-Sublahshini-Asal-Kolaar-Vishnu-Edavan.mp3",
+      "video_title": "Monica - Lyric Video| COOLIE | Superstar Rajinikanth | Sun Pictures | Lokesh | Anirudh | Pooja Hegde",
+      "metadata": {
+        "track_name": "Monica (From \"Coolie\") (Tamil)",
+        "track_uri": "spotify:track:2t1pEpxPz91KldW7C0FyZv",
+        "artists": [
+          "Anirudh Ravichander",
+          "Sublahshini",
+          "Asal Kolaar",
+          "Vishnu Edavan"
+        ],
+        "artist_uris": [
+          "spotify:artist:4zCH9qm4R2DADamUHMCa6O",
+          "spotify:artist:0nh5cRtt03SU6LhzhVC5fv",
+          "spotify:artist:4b1WCDqAVVgxK7KozLkOqc",
+          "spotify:artist:0EESJaBQY5fiBeQOGvDi3T"
+        ],
+        "artists_string": "Anirudh Ravichander, Sublahshini, Asal Kolaar, Vishnu Edavan",
+        "album_name": "Monica (From \"Coolie\") (Tamil)",
+        "album_uri": "spotify:album:0JVeWlWdj13Q8PdEFmsjqX",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b27325fa8e214ad888b7d291f25e",
+        "cover_art_filename": "Monica-From-Coolie-Tamil_Anirudh-Ravichander_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0225fa8e214ad888b7d291f25e",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485125fa8e214ad888b7d291f25e",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27325fa8e214ad888b7d291f25e",
+            "width": 640
+          }
+        ],
+        "duration_ms": 217627,
+        "duration_seconds": 217.627,
+        "duration_formatted": "3:37",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "4854800",
+        "content_rating": "NONE",
+        "added_at": "2025-07-22T08:55:39.861Z",
+        "added_at_formatted": "2025-07-22 08:55:39",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.445197"
+      }
+    },
+    {
+      "track_name": "Kannadi Poove (From \"Retro\")",
+      "artists": "Santhosh Narayanan, Vivek",
+      "search_query": "Kannadi Poove (From \"Retro\") Santhosh Narayanan, Vivek",
+      "status": "success",
+      "error": null,
+      "filename": "Kannadi-Poove-From-Retro-Santhosh-Narayanan-Vivek.mp3",
+      "video_title": "Kannadi Poove Lyrical Video - RETRO | Suriya | Karthik Subbaraj | Pooja Hegde | Santhosh Narayanan",
+      "metadata": {
+        "track_name": "Kannadi Poove (From \"Retro\")",
+        "track_uri": "spotify:track:4tJz5wXpwIvG2KMKPbYWwz",
+        "artists": [
+          "Santhosh Narayanan",
+          "Vivek"
+        ],
+        "artist_uris": [
+          "spotify:artist:5FVBduYaeVBb6JIghza7v6",
+          "spotify:artist:25Pa1Vz1ZuTHmXPiYeMcgx"
+        ],
+        "artists_string": "Santhosh Narayanan, Vivek",
+        "album_name": "Kannadi Poove (From \"Retro\")",
+        "album_uri": "spotify:album:5xddO8rRiNu2h6n79ZZNGz",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2733feeceaf6adaa22e57791da0",
+        "cover_art_filename": "Kannadi-Poove-From-Retro_Santhosh-Narayanan_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e023feeceaf6adaa22e57791da0",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048513feeceaf6adaa22e57791da0",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2733feeceaf6adaa22e57791da0",
+            "width": 640
+          }
+        ],
+        "duration_ms": 261049,
+        "duration_seconds": 261.049,
+        "duration_formatted": "4:21",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "37811936",
+        "content_rating": "NONE",
+        "added_at": "2025-03-27T11:29:27.425Z",
+        "added_at_formatted": "2025-03-27 11:29:27",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.475595"
+      }
+    },
+    {
+      "track_name": "Muththa Mazhai",
+      "artists": "A.R. Rahman, Dhee, Siva Ananth",
+      "search_query": "Muththa Mazhai A.R. Rahman, Dhee, Siva Ananth",
+      "status": "success",
+      "error": null,
+      "filename": "Muththa-Mazhai-AR-Rahman-Dhee-Siva-Ananth.mp3",
+      "video_title": "Muththa Mazhai - Chinmayi Performance | Thug Life | Kamal Haasan | Mani Ratnam | STR | AR Rahman",
+      "metadata": {
+        "track_name": "Muththa Mazhai",
+        "track_uri": "spotify:track:5BEz37uGx2cfFe5YAPWlHW",
+        "artists": [
+          "A.R. Rahman",
+          "Dhee",
+          "Siva Ananth"
+        ],
+        "artist_uris": [
+          "spotify:artist:1mYsTxnqsietFxj1OgoGbG",
+          "spotify:artist:77YvCBWe0tTLygpgSJsdOH",
+          "spotify:artist:5fZe0ixZMgYwu5BLCNvMDC"
+        ],
+        "artists_string": "A.R. Rahman, Dhee, Siva Ananth",
+        "album_name": "Thug Life (Tamil)",
+        "album_uri": "spotify:album:31TRIxu0k1xA4rn4JCwlMb",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2737b3e3f450e339f2af4cf82eb",
+        "cover_art_filename": "Muththa-Mazhai_AR-Rahman_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e027b3e3f450e339f2af4cf82eb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048517b3e3f450e339f2af4cf82eb",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2737b3e3f450e339f2af4cf82eb",
+            "width": 640
+          }
+        ],
+        "duration_ms": 241223,
+        "duration_seconds": 241.223,
+        "duration_formatted": "4:01",
+        "track_number": 3,
+        "disc_number": 1,
+        "playcount": "8165138",
+        "content_rating": "NONE",
+        "added_at": "2025-06-11T13:02:58.239Z",
+        "added_at_formatted": "2025-06-11 13:02:58",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.509057"
+      }
+    },
+    {
+      "track_name": "Yedi (From \"Nilavuku En Mel Ennadi Kobam\")",
+      "artists": "G. V. Prakash, Vivek, Dhanush, Jonita Gandhi",
+      "search_query": "Yedi (From \"Nilavuku En Mel Ennadi Kobam\") G. V. Prakash, Vivek, Dhanush, Jonita Gandhi",
+      "status": "success",
+      "error": null,
+      "filename": "Yedi-From-Nilavuku-En-Mel-Ennadi-Kobam-G-V-Prakash-Vivek-Dhanush-Jonita-Gandhi.mp3",
+      "video_title": "Yedi - Video Song | Dhanush | Pavish | Anikha | GV Prakash | Jonita Gandhi #NEEK",
+      "metadata": {
+        "track_name": "Yedi (From \"Nilavuku En Mel Ennadi Kobam\")",
+        "track_uri": "spotify:track:6g3pwMsCrqV5HcxF6p99GB",
+        "artists": [
+          "G. V. Prakash",
+          "Vivek",
+          "Dhanush",
+          "Jonita Gandhi"
+        ],
+        "artist_uris": [
+          "spotify:artist:5VVN3xZw1i2qihfITZlvCZ",
+          "spotify:artist:25Pa1Vz1ZuTHmXPiYeMcgx",
+          "spotify:artist:2F3KtUVtrt2GLjcl6pB4cz",
+          "spotify:artist:00sCATpEvwH48ays7PlQFU"
+        ],
+        "artists_string": "G. V. Prakash, Vivek, Dhanush, Jonita Gandhi",
+        "album_name": "Yedi (From \"Nilavuku En Mel Ennadi Kobam\")",
+        "album_uri": "spotify:album:3jZWWfcr8vL5HkLrtVdwOs",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b27310f3922e5befe4584aa24498",
+        "cover_art_filename": "Yedi-From-Nilavuku-En-Mel-Ennadi-Kobam_G-V-Prakash_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0210f3922e5befe4584aa24498",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485110f3922e5befe4584aa24498",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27310f3922e5befe4584aa24498",
+            "width": 640
+          }
+        ],
+        "duration_ms": 201617,
+        "duration_seconds": 201.617,
+        "duration_formatted": "3:21",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "31359520",
+        "content_rating": "NONE",
+        "added_at": "2025-03-28T08:16:01.757Z",
+        "added_at_formatted": "2025-03-28 08:16:01",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.545263"
+      }
+    },
+    {
+      "track_name": "Kanimaa (From \"Retro\")",
+      "artists": "Santhosh Narayanan, The Indian Choral Ensemble, Vivek",
+      "search_query": "Kanimaa (From \"Retro\") Santhosh Narayanan, The Indian Choral Ensemble, Vivek",
+      "status": "success",
+      "error": null,
+      "filename": "Kanimaa-From-Retro-Santhosh-Narayanan-The-Indian-Choral-Ensemble-Vivek.mp3",
+      "video_title": "KANIMAA Lyrical Video - RETRO | Suriya | Karthik Subbaraj | Pooja Hegde | Santhosh Narayanan",
+      "metadata": {
+        "track_name": "Kanimaa (From \"Retro\")",
+        "track_uri": "spotify:track:2JlzHPGIVaLNAppX1viq7f",
+        "artists": [
+          "Santhosh Narayanan",
+          "The Indian Choral Ensemble",
+          "Vivek"
+        ],
+        "artist_uris": [
+          "spotify:artist:5FVBduYaeVBb6JIghza7v6",
+          "spotify:artist:4Rp2Fp4kllqWQWZLbEZgm3",
+          "spotify:artist:25Pa1Vz1ZuTHmXPiYeMcgx"
+        ],
+        "artists_string": "Santhosh Narayanan, The Indian Choral Ensemble, Vivek",
+        "album_name": "Kanimaa (From \"Retro\")",
+        "album_uri": "spotify:album:1YPMUwOzrovzylIkqNeepA",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273116633561ca7705cdbcc9656",
+        "cover_art_filename": "Kanimaa-From-Retro_Santhosh-Narayanan_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02116633561ca7705cdbcc9656",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851116633561ca7705cdbcc9656",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273116633561ca7705cdbcc9656",
+            "width": 640
+          }
+        ],
+        "duration_ms": 243223,
+        "duration_seconds": 243.223,
+        "duration_formatted": "4:03",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "37182366",
+        "content_rating": "NONE",
+        "added_at": "2025-03-27T11:29:27.425Z",
+        "added_at_formatted": "2025-03-27 11:29:27",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.583553"
+      }
+    },
+    {
+      "track_name": "Vazhithunaiye",
+      "artists": "Leon James, Sid Sriram, Sanjana Kalmanje, Vignesh Shivan",
+      "search_query": "Vazhithunaiye Leon James, Sid Sriram, Sanjana Kalmanje, Vignesh Shivan",
+      "status": "success",
+      "error": null,
+      "filename": "Vazhithunaiye-Leon-James-Sid-Sriram-Sanjana-Kalmanje-Vignesh-Shivan.mp3",
+      "video_title": "Vazhithunaiye Video Song | Dragon | Pradeep Ranganathan, Kayadu | Ashwath Marimuthu | Leon James",
+      "metadata": {
+        "track_name": "Vazhithunaiye",
+        "track_uri": "spotify:track:7dIovld3QsNhYseLcwMJHj",
+        "artists": [
+          "Leon James",
+          "Sid Sriram",
+          "Sanjana Kalmanje",
+          "Vignesh Shivan"
+        ],
+        "artist_uris": [
+          "spotify:artist:0wv5i0ds2z040yx7oL6UZy",
+          "spotify:artist:7qjJw7ZM2ekDSahLXPjIlN",
+          "spotify:artist:4zQpCebYLmlfG8Cw43xdtZ",
+          "spotify:artist:1yzwPGlvrRLlhYkCRYde5z"
+        ],
+        "artists_string": "Leon James, Sid Sriram, Sanjana Kalmanje, Vignesh Shivan",
+        "album_name": "Dragon (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:7nnIfhnQEZouWC7Stu3AY9",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2731216e051395d9ba314277c0e",
+        "cover_art_filename": "Vazhithunaiye_Leon-James_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e021216e051395d9ba314277c0e",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048511216e051395d9ba314277c0e",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2731216e051395d9ba314277c0e",
+            "width": 640
+          }
+        ],
+        "duration_ms": 218285,
+        "duration_seconds": 218.285,
+        "duration_formatted": "3:38",
+        "track_number": 3,
+        "disc_number": 1,
+        "playcount": "35656939",
+        "content_rating": "NONE",
+        "added_at": "2025-03-27T11:29:27.425Z",
+        "added_at_formatted": "2025-03-27 11:29:27",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.614833"
+      }
+    },
+    {
+      "track_name": "Jinguchaa (From \"Thug Life\") (Tamil)",
+      "artists": "A.R. Rahman, Kamal Haasan, Vaishali Samant, Shakthisree Gopalan, Adithya RK",
+      "search_query": "Jinguchaa (From \"Thug Life\") (Tamil) A.R. Rahman, Kamal Haasan, Vaishali Samant, Shakthisree Gopalan, Adithya RK",
+      "status": "success",
+      "error": null,
+      "filename": "Jinguchaa-From-Thug-Life-Tamil-AR-Rahman-Kamal-Haasan-Vaishali-Samant-Shakthisree-Gopalan-Adithya-RK.mp3",
+      "video_title": "Jinguchaa - Video Song | Thug Life | Kamal Haasan | Mani Ratnam | STR | AR Rahman | Sanya M",
+      "metadata": {
+        "track_name": "Jinguchaa (From \"Thug Life\") (Tamil)",
+        "track_uri": "spotify:track:3hZg8oiTOWFZWaFudFi610",
+        "artists": [
+          "A.R. Rahman",
+          "Kamal Haasan",
+          "Vaishali Samant",
+          "Shakthisree Gopalan",
+          "Adithya RK"
+        ],
+        "artist_uris": [
+          "spotify:artist:1mYsTxnqsietFxj1OgoGbG",
+          "spotify:artist:5asJ8jtjk36r5PW5upyJm6",
+          "spotify:artist:2zGP2SUtwsDhdyYzf0kKp8",
+          "spotify:artist:7zAp0JbkavFg2rcMGvANtP",
+          "spotify:artist:2AQwMDyDvgpZcHLITOpgpm"
+        ],
+        "artists_string": "A.R. Rahman, Kamal Haasan, Vaishali Samant, Shakthisree Gopalan, Adithya RK",
+        "album_name": "Jinguchaa (From \"Thug Life\") (Tamil)",
+        "album_uri": "spotify:album:5ROLhzeNs1qAN2SwAD4Ukp",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273a5850ac5d04d600f9e2436b7",
+        "cover_art_filename": "Jinguchaa-From-Thug-Life-Tamil_AR-Rahman_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02a5850ac5d04d600f9e2436b7",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851a5850ac5d04d600f9e2436b7",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273a5850ac5d04d600f9e2436b7",
+            "width": 640
+          }
+        ],
+        "duration_ms": 260314,
+        "duration_seconds": 260.314,
+        "duration_formatted": "4:20",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "16881421",
+        "content_rating": "NONE",
+        "added_at": "2025-06-21T04:05:14.636Z",
+        "added_at_formatted": "2025-06-21 04:05:14",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.645570"
+      }
+    },
+    {
+      "track_name": "Og Sambavam (From \"Good Bad Ugly\")",
+      "artists": "G. V. Prakash, Adhik Ravi Chandran, Vishnu Edavan",
+      "search_query": "Og Sambavam (From \"Good Bad Ugly\") G. V. Prakash, Adhik Ravi Chandran, Vishnu Edavan",
+      "status": "success",
+      "error": null,
+      "filename": "Og-Sambavam-From-Good-Bad-Ugly-G-V-Prakash-Adhik-Ravi-Chandran-Vishnu-Edavan.mp3",
+      "video_title": "Full Video: OG SAMBAVAM | Good Bad Ugly | Ajith | Trisha | G V Prakash | Adhik Ravichandran",
+      "metadata": {
+        "track_name": "Og Sambavam (From \"Good Bad Ugly\")",
+        "track_uri": "spotify:track:361FMJC5uRSXzato4NE5Zg",
+        "artists": [
+          "G. V. Prakash",
+          "Adhik Ravi Chandran",
+          "Vishnu Edavan"
+        ],
+        "artist_uris": [
+          "spotify:artist:5VVN3xZw1i2qihfITZlvCZ",
+          "spotify:artist:4Mc4AjHZb70VJsiV3BhWCu",
+          "spotify:artist:0EESJaBQY5fiBeQOGvDi3T"
+        ],
+        "artists_string": "G. V. Prakash, Adhik Ravi Chandran, Vishnu Edavan",
+        "album_name": "Og Sambavam (From \"Good Bad Ugly\")",
+        "album_uri": "spotify:album:5uJEIc691EJ7R5vrbUJ7qs",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2734e2fc4e9342592b98bab3e3d",
+        "cover_art_filename": "Og-Sambavam-From-Good-Bad-Ugly_G-V-Prakash_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e024e2fc4e9342592b98bab3e3d",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048514e2fc4e9342592b98bab3e3d",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2734e2fc4e9342592b98bab3e3d",
+            "width": 640
+          }
+        ],
+        "duration_ms": 198101,
+        "duration_seconds": 198.101,
+        "duration_formatted": "3:18",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "18102203",
+        "content_rating": "NONE",
+        "added_at": "2025-04-10T06:22:12.272Z",
+        "added_at_formatted": "2025-04-10 06:22:12",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.678253"
+      }
+    },
+    {
+      "track_name": "Sawadeeka (From \"Vidaamuyarchi\")",
+      "artists": "Anirudh Ravichander, Anthony Daasan, Arivu",
+      "search_query": "Sawadeeka (From \"Vidaamuyarchi\") Anirudh Ravichander, Anthony Daasan, Arivu",
+      "status": "success",
+      "error": null,
+      "filename": "Sawadeeka-From-Vidaamuyarchi-Anirudh-Ravichander-Anthony-Daasan-Arivu.mp3",
+      "video_title": "Vidaamuyarchi - Sawadeeka Lyric | Ajith Kumar | Trisha | Magizh Thirumeni | Anirudh | Subaskaran",
+      "metadata": {
+        "track_name": "Sawadeeka (From \"Vidaamuyarchi\")",
+        "track_uri": "spotify:track:0Vh3jGxKhm9KxzQgnfnIV6",
+        "artists": [
+          "Anirudh Ravichander",
+          "Anthony Daasan",
+          "Arivu"
+        ],
+        "artist_uris": [
+          "spotify:artist:4zCH9qm4R2DADamUHMCa6O",
+          "spotify:artist:1lDx24tVvy8JVKOVjnlJfv",
+          "spotify:artist:7rVV9d6vc4FLT752uRuk71"
+        ],
+        "artists_string": "Anirudh Ravichander, Anthony Daasan, Arivu",
+        "album_name": "Sawadeeka (From \"Vidaamuyarchi\")",
+        "album_uri": "spotify:album:3J9YX3ayznkSAV2XecdDzT",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273202de086bf1ae54a0eda5197",
+        "cover_art_filename": "Sawadeeka-From-Vidaamuyarchi_Anirudh-Ravichander_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02202de086bf1ae54a0eda5197",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851202de086bf1ae54a0eda5197",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273202de086bf1ae54a0eda5197",
+            "width": 640
+          }
+        ],
+        "duration_ms": 204413,
+        "duration_seconds": 204.413,
+        "duration_formatted": "3:24",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "32127452",
+        "content_rating": "NONE",
+        "added_at": "2025-01-02T08:14:19.143Z",
+        "added_at_formatted": "2025-01-02 08:14:19",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.710511"
+      }
+    },
+    {
+      "track_name": "Nee Singam Dhan",
+      "artists": "A.R. Rahman, Sid Sriram",
+      "search_query": "Nee Singam Dhan A.R. Rahman, Sid Sriram",
+      "status": "success",
+      "error": null,
+      "filename": "Nee-Singam-Dhan-AR-Rahman-Sid-Sriram.mp3",
+      "video_title": "Pathu Thala - Nee Singam Dhan Video | Silambarasan TR | A. R Rahman | Gautham Karthik",
+      "metadata": {
+        "track_name": "Nee Singam Dhan",
+        "track_uri": "spotify:track:0vua5LbAth2HzKqpbnVRZk",
+        "artists": [
+          "A.R. Rahman",
+          "Sid Sriram"
+        ],
+        "artist_uris": [
+          "spotify:artist:1mYsTxnqsietFxj1OgoGbG",
+          "spotify:artist:7qjJw7ZM2ekDSahLXPjIlN"
+        ],
+        "artists_string": "A.R. Rahman, Sid Sriram",
+        "album_name": "Pathu Thala (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:6y3yImd357ZGmMfb0mb1ts",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b27304da3075c8f89b8e5764b9bd",
+        "cover_art_filename": "Nee-Singam-Dhan_AR-Rahman_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0204da3075c8f89b8e5764b9bd",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485104da3075c8f89b8e5764b9bd",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27304da3075c8f89b8e5764b9bd",
+            "width": 640
+          }
+        ],
+        "duration_ms": 247794,
+        "duration_seconds": 247.794,
+        "duration_formatted": "4:07",
+        "track_number": 3,
+        "disc_number": 1,
+        "playcount": "93494660",
+        "content_rating": "NONE",
+        "added_at": "2023-05-08T08:49:27.746Z",
+        "added_at_formatted": "2023-05-08 08:49:27",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.744830"
+      }
+    },
+    {
+      "track_name": "Golden Sparrow (From \"Nilavuku En Mel Ennadi Kobam\")",
+      "artists": "G. V. Prakash, Arivu, Dhanush, Sublahshini",
+      "search_query": "Golden Sparrow (From \"Nilavuku En Mel Ennadi Kobam\") G. V. Prakash, Arivu, Dhanush, Sublahshini",
+      "status": "success",
+      "error": null,
+      "filename": "Golden-Sparrow-From-Nilavuku-En-Mel-Ennadi-Kobam-G-V-Prakash-Arivu-Dhanush-Sublahshini.mp3",
+      "video_title": "Golden Sparrow - Video Song | Dhanush | Priyanka Mohan | Pavish | Anikha | GV Prakash #NEEK",
+      "metadata": {
+        "track_name": "Golden Sparrow (From \"Nilavuku En Mel Ennadi Kobam\")",
+        "track_uri": "spotify:track:3dHP1GUSR19PB1baWz37LN",
+        "artists": [
+          "G. V. Prakash",
+          "Arivu",
+          "Dhanush",
+          "Sublahshini"
+        ],
+        "artist_uris": [
+          "spotify:artist:5VVN3xZw1i2qihfITZlvCZ",
+          "spotify:artist:7rVV9d6vc4FLT752uRuk71",
+          "spotify:artist:2F3KtUVtrt2GLjcl6pB4cz",
+          "spotify:artist:0nh5cRtt03SU6LhzhVC5fv"
+        ],
+        "artists_string": "G. V. Prakash, Arivu, Dhanush, Sublahshini",
+        "album_name": "Golden Sparrow (From \"Nilavuku En Mel Ennadi Kobam\")",
+        "album_uri": "spotify:album:09Wjf3AwDGRQrKqddhqHKa",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273ec8dccdf95c4550567fa64ca",
+        "cover_art_filename": "Golden-Sparrow-From-Nilavuku-En-Mel-Ennadi-Kobam_G-V-Prakash_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02ec8dccdf95c4550567fa64ca",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851ec8dccdf95c4550567fa64ca",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273ec8dccdf95c4550567fa64ca",
+            "width": 640
+          }
+        ],
+        "duration_ms": 230400,
+        "duration_seconds": 230.4,
+        "duration_formatted": "3:50",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "65552957",
+        "content_rating": "NONE",
+        "added_at": "2024-10-07T09:41:13.568Z",
+        "added_at_formatted": "2024-10-07 09:41:13",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.776433"
+      }
+    },
+    {
+      "track_name": "Vinveli Nayaga",
+      "artists": "A.R. Rahman, Shruti Haasan, A. R. Ameen, Karthik Netha, Prashanth Venkat",
+      "search_query": "Vinveli Nayaga A.R. Rahman, Shruti Haasan, A. R. Ameen, Karthik Netha, Prashanth Venkat",
+      "status": "success",
+      "error": null,
+      "filename": "Vinveli-Nayaga-AR-Rahman-Shruti-Haasan-A-R-Ameen-Karthik-Netha-Prashanth-Venkat.mp3",
+      "video_title": "Vinveli Nayaga - Shruti Haasan Performance | Thug Life | Kamal Haasan | Mani Ratnam |STR | AR Rahman",
+      "metadata": {
+        "track_name": "Vinveli Nayaga",
+        "track_uri": "spotify:track:6ioxBnY5yi9Ah8sdsxz1nc",
+        "artists": [
+          "A.R. Rahman",
+          "Shruti Haasan",
+          "A. R. Ameen",
+          "Karthik Netha",
+          "Prashanth Venkat"
+        ],
+        "artist_uris": [
+          "spotify:artist:1mYsTxnqsietFxj1OgoGbG",
+          "spotify:artist:06vOoTzj6cIac9FMbNXz9h",
+          "spotify:artist:0pO2eJn9QBtNRVdLxI1nrE",
+          "spotify:artist:3o7GGc9KjbLzTCwOq9WL55",
+          "spotify:artist:0RR41Pd6GRRfVNRxYBMeG8"
+        ],
+        "artists_string": "A.R. Rahman, Shruti Haasan, A. R. Ameen, Karthik Netha, Prashanth Venkat",
+        "album_name": "Thug Life (Tamil)",
+        "album_uri": "spotify:album:31TRIxu0k1xA4rn4JCwlMb",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2737b3e3f450e339f2af4cf82eb",
+        "cover_art_filename": "Vinveli-Nayaga_AR-Rahman_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e027b3e3f450e339f2af4cf82eb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048517b3e3f450e339f2af4cf82eb",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2737b3e3f450e339f2af4cf82eb",
+            "width": 640
+          }
+        ],
+        "duration_ms": 274531,
+        "duration_seconds": 274.531,
+        "duration_formatted": "4:34",
+        "track_number": 4,
+        "disc_number": 1,
+        "playcount": "4302364",
+        "content_rating": "NONE",
+        "added_at": "2025-06-11T13:02:58.239Z",
+        "added_at_formatted": "2025-06-11 13:02:58",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.808860"
+      }
+    },
+    {
+      "track_name": "Ak - The Tiger",
+      "artists": "Darkkey, G. V. Prakash",
+      "search_query": "Ak - The Tiger Darkkey, G. V. Prakash",
+      "status": "success",
+      "error": null,
+      "filename": "Ak-The-Tiger-Darkkey-G-V-Prakash.mp3",
+      "video_title": "Good Bad Ugly: AK - The Tiger (Full Video) | Ajith Kumar | Trisha | G V Prakash, Darkkey | Bhushan K",
+      "metadata": {
+        "track_name": "Ak - The Tiger",
+        "track_uri": "spotify:track:6XyeIcCT97drM5lzi9Pq88",
+        "artists": [
+          "Darkkey",
+          "G. V. Prakash"
+        ],
+        "artist_uris": [
+          "spotify:artist:04RZUhq6dIFyX9eJYij92Q",
+          "spotify:artist:5VVN3xZw1i2qihfITZlvCZ"
+        ],
+        "artists_string": "Darkkey, G. V. Prakash",
+        "album_name": "Good Bad Ugly [TAMIL]",
+        "album_uri": "spotify:album:2HGpHw3UR9kqSeiVyjO0MC",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b27321df94e3321238c67b7b08ab",
+        "cover_art_filename": "Ak-The-Tiger_Darkkey_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0221df94e3321238c67b7b08ab",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485121df94e3321238c67b7b08ab",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27321df94e3321238c67b7b08ab",
+            "width": 640
+          }
+        ],
+        "duration_ms": 203053,
+        "duration_seconds": 203.053,
+        "duration_formatted": "3:23",
+        "track_number": 3,
+        "disc_number": 1,
+        "playcount": "5314381",
+        "content_rating": "NONE",
+        "added_at": "2025-05-07T12:49:33.096Z",
+        "added_at_formatted": "2025-05-07 12:49:33",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.865517"
+      }
+    },
+    {
+      "track_name": "Vennilavu Saaral",
+      "artists": "G. V. Prakash, Kapil Kapilan, Rakshita Suresh, Yugabharathi",
+      "search_query": "Vennilavu Saaral G. V. Prakash, Kapil Kapilan, Rakshita Suresh, Yugabharathi",
+      "status": "success",
+      "error": null,
+      "filename": "Vennilavu-Saaral-G-V-Prakash-Kapil-Kapilan-Rakshita-Suresh-Yugabharathi.mp3",
+      "video_title": "Vennilavu Saaral - Video Song | Amaran | Sivakarthikeyan, Sai Pallavi | GV Prakash | Rajkumar",
+      "metadata": {
+        "track_name": "Vennilavu Saaral",
+        "track_uri": "spotify:track:79Aa3LFIeZpMWTXs8y3Qgk",
+        "artists": [
+          "G. V. Prakash",
+          "Kapil Kapilan",
+          "Rakshita Suresh",
+          "Yugabharathi"
+        ],
+        "artist_uris": [
+          "spotify:artist:5VVN3xZw1i2qihfITZlvCZ",
+          "spotify:artist:0nMjhemqRwrboQGcs92fh2",
+          "spotify:artist:76Z6SMQPibr8qI24AhdvbJ",
+          "spotify:artist:4kzSv6FtNOoY6s4VFD3L6e"
+        ],
+        "artists_string": "G. V. Prakash, Kapil Kapilan, Rakshita Suresh, Yugabharathi",
+        "album_name": "Amaran (Tamil)",
+        "album_uri": "spotify:album:1xONf0eKTmlbuy13uaStDJ",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b27397f6728a3e1786a31dbb9718",
+        "cover_art_filename": "Vennilavu-Saaral_G-V-Prakash_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0297f6728a3e1786a31dbb9718",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485197f6728a3e1786a31dbb9718",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27397f6728a3e1786a31dbb9718",
+            "width": 640
+          }
+        ],
+        "duration_ms": 213333,
+        "duration_seconds": 213.333,
+        "duration_formatted": "3:33",
+        "track_number": 3,
+        "disc_number": 1,
+        "playcount": "32719083",
+        "content_rating": "NONE",
+        "added_at": "2025-06-11T13:07:10.085Z",
+        "added_at_formatted": "2025-06-11 13:07:10",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.902794"
+      }
+    },
+    {
+      "track_name": "Hey Minnale (From \"Amaran\") (Tamil)",
+      "artists": "G. V. Prakash, Haricharan, Shweta Mohan, Karthik Netha",
+      "search_query": "Hey Minnale (From \"Amaran\") (Tamil) G. V. Prakash, Haricharan, Shweta Mohan, Karthik Netha",
+      "status": "success",
+      "error": null,
+      "filename": "Hey-Minnale-From-Amaran-Tamil-G-V-Prakash-Haricharan-Shweta-Mohan-Karthik-Netha.mp3",
+      "video_title": "Hey Minnale - Video Song | Amaran | Sivakarthikeyan, Sai Pallavi | GV Prakash | Rajkumar Periasamy",
+      "metadata": {
+        "track_name": "Hey Minnale (From \"Amaran\") (Tamil)",
+        "track_uri": "spotify:track:1kmJ0EvXClJAt0fSSQLX1m",
+        "artists": [
+          "G. V. Prakash",
+          "Haricharan",
+          "Shweta Mohan",
+          "Karthik Netha"
+        ],
+        "artist_uris": [
+          "spotify:artist:5VVN3xZw1i2qihfITZlvCZ",
+          "spotify:artist:1QvyquqkuuwUzdszyoKIy4",
+          "spotify:artist:1rdQOMFFtoskDXXUVjiGo9",
+          "spotify:artist:3o7GGc9KjbLzTCwOq9WL55"
+        ],
+        "artists_string": "G. V. Prakash, Haricharan, Shweta Mohan, Karthik Netha",
+        "album_name": "Hey Minnale (From \"Amaran\") (Tamil)",
+        "album_uri": "spotify:album:0Wmaf5kSAnQ3hSn09w9BYR",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273d29a8598a39461ddb2a15953",
+        "cover_art_filename": "Hey-Minnale-From-Amaran-Tamil_G-V-Prakash_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02d29a8598a39461ddb2a15953",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851d29a8598a39461ddb2a15953",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273d29a8598a39461ddb2a15953",
+            "width": 640
+          }
+        ],
+        "duration_ms": 229811,
+        "duration_seconds": 229.811,
+        "duration_formatted": "3:49",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "70208076",
+        "content_rating": "NONE",
+        "added_at": "2024-11-04T10:40:17.184Z",
+        "added_at_formatted": "2024-11-04 10:40:17",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:43.934343"
+      }
+    },
+    {
+      "track_name": "Aasa Kooda - From \"Think Indie\"",
+      "artists": "Sai Abhyankkar, Sai Smriti",
+      "search_query": "Aasa Kooda - From \"Think Indie\" Sai Abhyankkar, Sai Smriti",
+      "status": "success",
+      "error": null,
+      "filename": "Aasa-Kooda-From-Think-Indie-Sai-Abhyankkar-Sai-Smriti.mp3",
+      "video_title": "@SaiAbhyankkar - Aasa Kooda (Music Video) | Thejo Bharathwaj | Preity Mukundhan | Sai Smriti",
+      "metadata": {
+        "track_name": "Aasa Kooda - From \"Think Indie\"",
+        "track_uri": "spotify:track:0MTdYgTZ25sLCO6kVnDoje",
+        "artists": [
+          "Sai Abhyankkar",
+          "Sai Smriti"
+        ],
+        "artist_uris": [
+          "spotify:artist:5jJrJU7VVmxQQLcLAmmxXc",
+          "spotify:artist:139FRgoVcJ82jogPttiWcc"
+        ],
+        "artists_string": "Sai Abhyankkar, Sai Smriti",
+        "album_name": "Aasa Kooda (From \"Think Indie\")",
+        "album_uri": "spotify:album:4AGLzJHGevDOnuHsQ0gxO5",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b27374a555ea03b0844b1e1d4513",
+        "cover_art_filename": "Aasa-Kooda-From-Think-Indie_Sai-Abhyankkar_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0274a555ea03b0844b1e1d4513",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485174a555ea03b0844b1e1d4513",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27374a555ea03b0844b1e1d4513",
+            "width": 640
+          }
+        ],
+        "duration_ms": 215510,
+        "duration_seconds": 215.51,
+        "duration_formatted": "3:35",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "168648870",
+        "content_rating": "NONE",
+        "added_at": "2024-07-04T06:40:25.823Z",
+        "added_at_formatted": "2024-07-04 06:40:25",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:44.003624"
+      }
+    },
+    {
+      "track_name": "Rise Of Dragon",
+      "artists": "Leon James, Anirudh Ravichander, Nadisha Thomas, El Fé Choir, Vignesh Shivan",
+      "search_query": "Rise Of Dragon Leon James, Anirudh Ravichander, Nadisha Thomas, El Fé Choir, Vignesh Shivan",
+      "status": "success",
+      "error": null,
+      "filename": "Rise-Of-Dragon-Leon-James-Anirudh-Ravichander-Nadisha-Thomas-El-Fé-Choir-Vignesh-Shivan.mp3",
+      "video_title": "Rise Of Dragon - Video Song | Dragon | Pradeep Ranganathan | Ashwath Marimuthu | Leon James | AGS",
+      "metadata": {
+        "track_name": "Rise Of Dragon",
+        "track_uri": "spotify:track:5PH0e3NmMFUautnXDLT1N8",
+        "artists": [
+          "Leon James",
+          "Anirudh Ravichander",
+          "Nadisha Thomas",
+          "El Fé Choir",
+          "Vignesh Shivan"
+        ],
+        "artist_uris": [
+          "spotify:artist:0wv5i0ds2z040yx7oL6UZy",
+          "spotify:artist:4zCH9qm4R2DADamUHMCa6O",
+          "spotify:artist:0iWrT9e3JMHcxLgSEo3bTu",
+          "spotify:artist:51jqIO3VZydqG3tGNg15Bi",
+          "spotify:artist:1yzwPGlvrRLlhYkCRYde5z"
+        ],
+        "artists_string": "Leon James, Anirudh Ravichander, Nadisha Thomas, El Fé Choir, Vignesh Shivan",
+        "album_name": "Dragon (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:7nnIfhnQEZouWC7Stu3AY9",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2731216e051395d9ba314277c0e",
+        "cover_art_filename": "Rise-Of-Dragon_Leon-James_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e021216e051395d9ba314277c0e",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048511216e051395d9ba314277c0e",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2731216e051395d9ba314277c0e",
+            "width": 640
+          }
+        ],
+        "duration_ms": 210041,
+        "duration_seconds": 210.041,
+        "duration_formatted": "3:30",
+        "track_number": 2,
+        "disc_number": 1,
+        "playcount": "21158272",
+        "content_rating": "NONE",
+        "added_at": "2025-03-27T11:29:27.425Z",
+        "added_at_formatted": "2025-03-27 11:29:27",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:44.042530"
+      }
+    },
+    {
+      "track_name": "God Bless U (From \"Good Bad Ugly\")",
+      "artists": "Anirudh Ravichander, Paal Dabba, G. V. Prakash, Rokesh",
+      "search_query": "God Bless U (From \"Good Bad Ugly\") Anirudh Ravichander, Paal Dabba, G. V. Prakash, Rokesh",
+      "status": "success",
+      "error": null,
+      "filename": "God-Bless-U-From-Good-Bad-Ugly-Anirudh-Ravichander-Paal-Dabba-G-V-Prakash-Rokesh.mp3",
+      "video_title": "Good Bad Ugly: God Bless U Lyrical Video | Ajith | Anirudh | GV Prakash | Adhik Ravichandran",
+      "metadata": {
+        "track_name": "God Bless U (From \"Good Bad Ugly\")",
+        "track_uri": "spotify:track:6SZgnc7BvRmSXErk0hyXkq",
+        "artists": [
+          "Anirudh Ravichander",
+          "Paal Dabba",
+          "G. V. Prakash",
+          "Rokesh"
+        ],
+        "artist_uris": [
+          "spotify:artist:4zCH9qm4R2DADamUHMCa6O",
+          "spotify:artist:0cQJg3qKYiogK9Qj1H0Qpx",
+          "spotify:artist:5VVN3xZw1i2qihfITZlvCZ",
+          "spotify:artist:00LxYZ7wjuOneFyYMFB8n0"
+        ],
+        "artists_string": "Anirudh Ravichander, Paal Dabba, G. V. Prakash, Rokesh",
+        "album_name": "God Bless U (From \"Good Bad Ugly\")",
+        "album_uri": "spotify:album:0Q6DkvxKEsdC8n11b7rLcq",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273956e56e2162073b735bd1e98",
+        "cover_art_filename": "God-Bless-U-From-Good-Bad-Ugly_Anirudh-Ravichander_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02956e56e2162073b735bd1e98",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851956e56e2162073b735bd1e98",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273956e56e2162073b735bd1e98",
+            "width": 640
+          }
+        ],
+        "duration_ms": 240224,
+        "duration_seconds": 240.224,
+        "duration_formatted": "4:00",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "16263558",
+        "content_rating": "NONE",
+        "added_at": "2025-04-10T06:22:12.272Z",
+        "added_at_formatted": "2025-04-10 06:22:12",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:44.104893"
+      }
+    },
+    {
+      "track_name": "Sithira Puthiri - From \"Think Indie\"",
+      "artists": "Sai Abhyankkar, Vivek",
+      "search_query": "Sithira Puthiri - From \"Think Indie\" Sai Abhyankkar, Vivek",
+      "status": "success",
+      "error": null,
+      "filename": "Sithira-Puthiri-From-Think-Indie-Sai-Abhyankkar-Vivek.mp3",
+      "video_title": "@SaiAbhyankkar - Sithira Puthiri (Music Video) | Meenakshi Chaudhary| Akshay Sundher | Think Indie",
+      "metadata": {
+        "track_name": "Sithira Puthiri - From \"Think Indie\"",
+        "track_uri": "spotify:track:1uQU9b93tlMlMoZ0h2bRgf",
+        "artists": [
+          "Sai Abhyankkar",
+          "Vivek"
+        ],
+        "artist_uris": [
+          "spotify:artist:5jJrJU7VVmxQQLcLAmmxXc",
+          "spotify:artist:25Pa1Vz1ZuTHmXPiYeMcgx"
+        ],
+        "artists_string": "Sai Abhyankkar, Vivek",
+        "album_name": "Sithira Puthiri (From \"Think Indie\")",
+        "album_uri": "spotify:album:6545nscQNozQwGuO6AIabc",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273478f243c557031f035f9a804",
+        "cover_art_filename": "Sithira-Puthiri-From-Think-Indie_Sai-Abhyankkar_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02478f243c557031f035f9a804",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851478f243c557031f035f9a804",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273478f243c557031f035f9a804",
+            "width": 640
+          }
+        ],
+        "duration_ms": 226465,
+        "duration_seconds": 226.465,
+        "duration_formatted": "3:46",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "37898681",
+        "content_rating": "NONE",
+        "added_at": "2025-02-18T09:24:30.633Z",
+        "added_at_formatted": "2025-02-18 09:24:30",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:44.259470"
+      }
+    },
+    {
+      "track_name": "Paiya Dei - From \"Think Indie\"",
+      "artists": "Asal Kolaar, Anand Kashinath",
+      "search_query": "Paiya Dei - From \"Think Indie\" Asal Kolaar, Anand Kashinath",
+      "status": "success",
+      "error": null,
+      "filename": "Paiya-Dei-From-Think-Indie-Asal-Kolaar-Anand-Kashinath.mp3",
+      "video_title": "Asal Kolaar - Paiya Dei (Music Video) | Dinesu | Think Indie",
+      "metadata": {
+        "track_name": "Paiya Dei - From \"Think Indie\"",
+        "track_uri": "spotify:track:5zgalMo7LWrUPbnv9tgupN",
+        "artists": [
+          "Asal Kolaar",
+          "Anand Kashinath"
+        ],
+        "artist_uris": [
+          "spotify:artist:4b1WCDqAVVgxK7KozLkOqc",
+          "spotify:artist:6MIdOllsuMuSj4s6b833Di"
+        ],
+        "artists_string": "Asal Kolaar, Anand Kashinath",
+        "album_name": "Paiya Dei (From \"Think Indie\")",
+        "album_uri": "spotify:album:64rBaqo05hIvSgN2cDMT40",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2731912f1512d23b1826f2fa431",
+        "cover_art_filename": "Paiya-Dei-From-Think-Indie_Asal-Kolaar_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e021912f1512d23b1826f2fa431",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048511912f1512d23b1826f2fa431",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2731912f1512d23b1826f2fa431",
+            "width": 640
+          }
+        ],
+        "duration_ms": 155400,
+        "duration_seconds": 155.4,
+        "duration_formatted": "2:35",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "29616928",
+        "content_rating": "NONE",
+        "added_at": "2025-06-11T13:07:10.085Z",
+        "added_at_formatted": "2025-06-11 13:07:10",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:44.311103"
+      }
+    },
+    {
+      "track_name": "Manasilaayo (From \"Vettaiyan\")",
+      "artists": "Anirudh Ravichander, Malaysia Vasudevan, Deepthi Suresh, Yugendran Vasudeva Nair",
+      "search_query": "Manasilaayo (From \"Vettaiyan\") Anirudh Ravichander, Malaysia Vasudevan, Deepthi Suresh, Yugendran Vasudeva Nair",
+      "status": "success",
+      "error": null,
+      "filename": "Manasilaayo-From-Vettaiyan-Anirudh-Ravichander-Malaysia-Vasudevan-Deepthi-Suresh-Yugendran-Vasudeva-.mp3",
+      "video_title": "Vettaiyan - Manasilaayo Lyric | Rajinikanth | T.J. Gnanavel | Anirudh | Manju Warrier | Subaskaran",
+      "metadata": {
+        "track_name": "Manasilaayo (From \"Vettaiyan\")",
+        "track_uri": "spotify:track:7KB0zREYCrQU3refE5x0M3",
+        "artists": [
+          "Anirudh Ravichander",
+          "Malaysia Vasudevan",
+          "Deepthi Suresh",
+          "Yugendran Vasudeva Nair"
+        ],
+        "artist_uris": [
+          "spotify:artist:4zCH9qm4R2DADamUHMCa6O",
+          "spotify:artist:0qS0rxCY4YfrUx9GCTlDIW",
+          "spotify:artist:4PY2xnTu90K0hvkgcljRJl",
+          "spotify:artist:6S4OZSmCe82PWVlYiT2Zk6"
+        ],
+        "artists_string": "Anirudh Ravichander, Malaysia Vasudevan, Deepthi Suresh, Yugendran Vasudeva Nair",
+        "album_name": "Manasilaayo (From \"Vettaiyan\")",
+        "album_uri": "spotify:album:1EWbkJ8zew7sXQnCbKI0Xz",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273da8d29ecfc096bb69dff7ac1",
+        "cover_art_filename": "Manasilaayo-From-Vettaiyan_Anirudh-Ravichander_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02da8d29ecfc096bb69dff7ac1",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851da8d29ecfc096bb69dff7ac1",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273da8d29ecfc096bb69dff7ac1",
+            "width": 640
+          }
+        ],
+        "duration_ms": 235629,
+        "duration_seconds": 235.629,
+        "duration_formatted": "3:55",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "94932842",
+        "content_rating": "NONE",
+        "added_at": "2024-09-16T06:04:02.800Z",
+        "added_at_formatted": "2024-09-16 06:04:02",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:44.360107"
+      }
+    },
+    {
+      "track_name": "Chillanjirukkiye",
+      "artists": "Sean Roldan, Pradeep Kumar, Sivaangi Krishnakumar",
+      "search_query": "Chillanjirukkiye Sean Roldan, Pradeep Kumar, Sivaangi Krishnakumar",
+      "status": "failed",
+      "error": "ERROR: [youtube] dvWdFMCC1-I: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+      "filename": null,
+      "video_title": null,
+      "metadata": {
+        "track_name": "Chillanjirukkiye",
+        "track_uri": "spotify:track:2g9aiiRu6dteue5VD4DoOF",
+        "artists": [
+          "Sean Roldan",
+          "Pradeep Kumar",
+          "Sivaangi Krishnakumar"
+        ],
+        "artist_uris": [
+          "spotify:artist:3TUNkjIHkcvEy9oeK2D4hU",
+          "spotify:artist:15ClyGUe5g2vllncIC4tp6",
+          "spotify:artist:0VocNHCBQ7Mzn9jNOmuSmz"
+        ],
+        "artists_string": "Sean Roldan, Pradeep Kumar, Sivaangi Krishnakumar",
+        "album_name": "Lubber Pandhu (Original Motion Picture Soundtrack)",
+        "album_uri": "spotify:album:3LBvPx4DFCDyRUbfdlu9xk",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b273868c5da6dee0584ca2a72b72",
+        "cover_art_filename": "Chillanjirukkiye_Sean-Roldan_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02868c5da6dee0584ca2a72b72",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851868c5da6dee0584ca2a72b72",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273868c5da6dee0584ca2a72b72",
+            "width": 640
+          }
+        ],
+        "duration_ms": 247448,
+        "duration_seconds": 247.448,
+        "duration_formatted": "4:07",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "42435459",
+        "content_rating": "NONE",
+        "added_at": "2024-11-08T12:55:25.454Z",
+        "added_at_formatted": "2024-11-08 12:55:25",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:44.458946"
+      }
+    },
+    {
+      "track_name": "Water Packet (From \"Raayan\")",
+      "artists": "A.R. Rahman, Santhosh Narayanan, Shweta Mohan, Gana Kadhar",
+      "search_query": "Water Packet (From \"Raayan\") A.R. Rahman, Santhosh Narayanan, Shweta Mohan, Gana Kadhar",
+      "status": "failed",
+      "error": "ERROR: [youtube] RgOEKdA2mlw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+      "filename": null,
+      "video_title": null,
+      "metadata": {
+        "track_name": "Water Packet (From \"Raayan\")",
+        "track_uri": "spotify:track:1hHrBEkN0JIaeFPegy4Xak",
+        "artists": [
+          "A.R. Rahman",
+          "Santhosh Narayanan",
+          "Shweta Mohan",
+          "Gana Kadhar"
+        ],
+        "artist_uris": [
+          "spotify:artist:1mYsTxnqsietFxj1OgoGbG",
+          "spotify:artist:5FVBduYaeVBb6JIghza7v6",
+          "spotify:artist:1rdQOMFFtoskDXXUVjiGo9",
+          "spotify:artist:0T487EE91kx2O8oGPO8Krh"
+        ],
+        "artists_string": "A.R. Rahman, Santhosh Narayanan, Shweta Mohan, Gana Kadhar",
+        "album_name": "Water Packet (From \"Raayan\")",
+        "album_uri": "spotify:album:7JFHHTttxtJtGG9S2lAfob",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2734c8ed16792cb66f09aa75b8c",
+        "cover_art_filename": "Water-Packet-From-Raayan_AR-Rahman_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e024c8ed16792cb66f09aa75b8c",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048514c8ed16792cb66f09aa75b8c",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2734c8ed16792cb66f09aa75b8c",
+            "width": 640
+          }
+        ],
+        "duration_ms": 246002,
+        "duration_seconds": 246.002,
+        "duration_formatted": "4:06",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "65146317",
+        "content_rating": "NONE",
+        "added_at": "2024-08-20T07:30:07.986Z",
+        "added_at_formatted": "2024-08-20 07:30:07",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:44.521289"
+      }
+    },
+    {
+      "track_name": "Achacho - From \"Aranmanai 4\"",
+      "artists": "Hiphop Tamizha, Kharesma Ravichandran, Srinisha Jayaseelan",
+      "search_query": "Achacho - From \"Aranmanai 4\" Hiphop Tamizha, Kharesma Ravichandran, Srinisha Jayaseelan",
+      "status": "failed",
+      "error": "ERROR: [youtube] ijBxe70sd8M: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+      "filename": null,
+      "video_title": null,
+      "metadata": {
+        "track_name": "Achacho - From \"Aranmanai 4\"",
+        "track_uri": "spotify:track:5eSoySxUnx3xsm0FHFgHiv",
+        "artists": [
+          "Hiphop Tamizha",
+          "Kharesma Ravichandran",
+          "Srinisha Jayaseelan"
+        ],
+        "artist_uris": [
+          "spotify:artist:7zFBW2JxM4bgTTKxCRcS8Q",
+          "spotify:artist:6XaNXEfQxuGqvzcHEwX6Qw",
+          "spotify:artist:4fbPpuZDZjzbTdGIwhD45a"
+        ],
+        "artists_string": "Hiphop Tamizha, Kharesma Ravichandran, Srinisha Jayaseelan",
+        "album_name": "Achacho (From \"Aranmanai 4\")",
+        "album_uri": "spotify:album:38v7imWGztnKKx1SZuf5o3",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2737516e7d8174c4f73b052292e",
+        "cover_art_filename": "Achacho-From-Aranmanai-4_Hiphop-Tamizha_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e027516e7d8174c4f73b052292e",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048517516e7d8174c4f73b052292e",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2737516e7d8174c4f73b052292e",
+            "width": 640
+          }
+        ],
+        "duration_ms": 193056,
+        "duration_seconds": 193.056,
+        "duration_formatted": "3:13",
+        "track_number": 1,
+        "disc_number": 1,
+        "playcount": "57048845",
+        "content_rating": "NONE",
+        "added_at": "2024-05-20T09:20:16.696Z",
+        "added_at_formatted": "2024-05-20 09:20:16",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:44.583727"
+      }
+    },
+    {
+      "track_name": "Matta",
+      "artists": "Yuvan Shankar Raja, Shenbagaraj, Velu, Sam, Narayanan Ravishankar",
+      "search_query": "Matta Yuvan Shankar Raja, Shenbagaraj, Velu, Sam, Narayanan Ravishankar",
+      "status": "failed",
+      "error": "ERROR: [youtube] D91qdB-JfWg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+      "filename": null,
+      "video_title": null,
+      "metadata": {
+        "track_name": "Matta",
+        "track_uri": "spotify:track:2hBFfxMw0RtEI5KsCJ7knh",
+        "artists": [
+          "Yuvan Shankar Raja",
+          "Shenbagaraj",
+          "Velu",
+          "Sam",
+          "Narayanan Ravishankar"
+        ],
+        "artist_uris": [
+          "spotify:artist:6AiX12wXdXFoGJ2vk8zBjy",
+          "spotify:artist:4sOq2wyRjNnnYNhpM24NdI",
+          "spotify:artist:2RSkJy7tN23yEXfx1DkbI4",
+          "spotify:artist:5LTCGDYmszZxu2ybzDfb05",
+          "spotify:artist:2eJunkotmRUe8mLJmqW8HD"
+        ],
+        "artists_string": "Yuvan Shankar Raja, Shenbagaraj, Velu, Sam, Narayanan Ravishankar",
+        "album_name": "The Greatest Of All Time",
+        "album_uri": "spotify:album:7qziZGdxIycvh71Oqjkpqo",
+        "cover_art_url": "https://i.scdn.co/image/ab67616d0000b2735820c59791afe2cb66a66ec3",
+        "cover_art_filename": "Matta_Yuvan-Shankar-Raja_cover.jpg",
+        "cover_art_sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e025820c59791afe2cb66a66ec3",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048515820c59791afe2cb66a66ec3",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2735820c59791afe2cb66a66ec3",
+            "width": 640
+          }
+        ],
+        "duration_ms": 212090,
+        "duration_seconds": 212.09,
+        "duration_formatted": "3:32",
+        "track_number": 4,
+        "disc_number": 1,
+        "playcount": "50492661",
+        "content_rating": "NONE",
+        "added_at": "2024-09-09T05:32:13.743Z",
+        "added_at_formatted": "2024-09-09 05:32:13",
+        "added_by_name": "Unknown",
+        "added_by_username": "",
+        "added_by_avatar_url": null,
+        "processed_at": "2025-07-24T14:58:44.638509"
+      }
+    }
+  ]
+}
