@@ -796,12 +796,29 @@ function playNextSong(song, event) {
 function updateNowPlaying(song) {
   nowPlayingTitle.textContent = getDisplayName(song);
   nowPlayingArtist.textContent = getArtistName(song);
-  
+
   const coverArt = getCoverArt(song);
   if (coverArt) {
     nowPlayingArt.innerHTML = `<img src="${coverArt}" alt="Album Art" onerror="this.style.display='none'; this.parentElement.innerHTML='🎵';">`;
   } else {
     nowPlayingArt.innerHTML = '🎵';
+  }
+
+  // Update Media Session metadata for lock screen
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: getDisplayName(song),
+      artist: getArtistName(song),
+      album: getAlbumName(song),
+      artwork: [
+        { src: coverArt || 'default-artwork.png', sizes: '96x96', type: 'image/png' },
+        { src: coverArt || 'default-artwork.png', sizes: '128x128', type: 'image/png' },
+        { src: coverArt || 'default-artwork.png', sizes: '192x192', type: 'image/png' },
+        { src: coverArt || 'default-artwork.png', sizes: '256x256', type: 'image/png' },
+        { src: coverArt || 'default-artwork.png', sizes: '384x384', type: 'image/png' },
+        { src: coverArt || 'default-artwork.png', sizes: '512x512', type: 'image/png' }
+      ]
+    });
   }
 }
 
@@ -873,6 +890,50 @@ function playSongAtIndex(index) {
   };
 
   playPauseBtn.innerText = '⏸';
+
+  // Update Media Session metadata and actions
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: getDisplayName(song),
+      artist: getArtistName(song),
+      album: getAlbumName(song),
+      artwork: [
+        { src: getCoverArt(song) || 'default-artwork.png', sizes: '96x96', type: 'image/png' },
+        { src: getCoverArt(song) || 'default-artwork.png', sizes: '128x128', type: 'image/png' },
+        { src: getCoverArt(song) || 'default-artwork.png', sizes: '192x192', type: 'image/png' },
+        { src: getCoverArt(song) || 'default-artwork.png', sizes: '256x256', type: 'image/png' },
+        { src: getCoverArt(song) || 'default-artwork.png', sizes: '384x384', type: 'image/png' },
+        { src: getCoverArt(song) || 'default-artwork.png', sizes: '512x512', type: 'image/png' }
+      ]
+    });
+
+    navigator.mediaSession.setActionHandler('play', () => {
+      if (audioPlayer.paused) {
+        audioPlayer.play();
+      }
+    });
+
+    navigator.mediaSession.setActionHandler('pause', () => {
+      if (!audioPlayer.paused) {
+        audioPlayer.pause();
+      }
+    });
+
+    navigator.mediaSession.setActionHandler('previoustrack', () => {
+      if (currentIndex > 0) {
+        playSongAtIndex(currentIndex - 1);
+      }
+    });
+
+    navigator.mediaSession.setActionHandler('nexttrack', () => {
+      if (currentIndex < currentVisibleSongs.length - 1) {
+        playSongAtIndex(currentIndex + 1);
+      }
+    });
+  } else {
+    console.warn('Media Session API is not supported in this browser.');
+    showToast('Media Session API not supported. Lock screen controls may not work.', 'error');
+  }
 }
 
 playPauseBtn.onclick = () => {
