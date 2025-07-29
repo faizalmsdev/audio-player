@@ -880,7 +880,8 @@ function getCoverArt(song) {
 function downloadSong(song, event) {
   event.stopPropagation();
   
-  const url = `/songs/${song.playlist}/${song.filename}`;
+  // Changed from /songs/${song.playlist}/${song.filename} to /songs/${song.filename}
+  const url = `/songs/${song.filename}`;
   const link = document.createElement('a');
   link.href = url;
   link.download = `${getDisplayName(song)} - ${getArtistName(song)}.${song.filename.split('.').pop()}`;
@@ -892,7 +893,8 @@ function downloadSong(song, event) {
 }
 
 function downloadPlaylist(playlistName) {
-  const playlistSongs = allSongs.filter(song => song.playlist === playlistName);
+  // Get songs from the specific playlist using the new API
+  const playlistSongs = allSongs.filter(song => song.playlists && song.playlists.includes(playlistName));
   
   if (playlistSongs.length === 0) {
     showToast('No songs in playlist to download', 'error');
@@ -904,7 +906,8 @@ function downloadPlaylist(playlistName) {
   // Download each song in the playlist
   playlistSongs.forEach((song, index) => {
     setTimeout(() => {
-      const url = `/songs/${song.playlist}/${song.filename}`;
+      // Changed from /songs/${song.playlist}/${song.filename} to /songs/${song.filename}
+      const url = `/songs/${song.filename}`;
       const link = document.createElement('a');
       link.href = url;
       link.download = `${getDisplayName(song)} - ${getArtistName(song)}.${song.filename.split('.').pop()}`;
@@ -996,7 +999,8 @@ function playSongAtIndex(index) {
     audioPlayer.remove();
   }
   
-  audioPlayer = new Audio(`/songs/${song.playlist}/${song.filename}`);
+  // Changed from /songs/${song.playlist}/${song.filename} to /songs/${song.filename}
+  audioPlayer = new Audio(`/songs/${song.filename}`);
   audioPlayer.type = mimeType;
   audioPlayer.autoplay = true;
 
@@ -1193,7 +1197,8 @@ function showPlaylistView(playlistName) {
   
   // Update playlist header
   currentPlaylistName.textContent = playlistName;
-  const playlistSongs = allSongs.filter(song => song.playlist === playlistName);
+  // Filter songs that belong to this playlist
+  const playlistSongs = allSongs.filter(song => song.playlists && song.playlists.includes(playlistName));
   currentPlaylistCount.textContent = `${playlistSongs.length} song${playlistSongs.length !== 1 ? 's' : ''}`;
   
   // Show playlist header and hide playlist buttons
@@ -1206,6 +1211,41 @@ function showPlaylistView(playlistName) {
   // Update search placeholder
   searchInput.placeholder = `Search in ${playlistName}...`;
 }
+
+// Updated initialization function
+async function initializeApp() {
+  try {
+    console.log('Initializing app...');
+    // Use the new /all-songs endpoint to get all unique songs
+    const response = await fetch('/all-songs');
+    const data = await response.json();
+    console.log('Songs data loaded:', data);
+    
+    allSongs = data.songs || [];
+    
+    // Get playlists info
+    const playlistsResponse = await fetch('/playlists');
+    const playlists = await playlistsResponse.json();
+    console.log('Playlists loaded:', playlists);
+    
+    allPlaylists = playlists;
+
+    console.log(`Total unique songs loaded: ${allSongs.length}`);
+    setupPlaylists(playlists);
+    displaySongs(allSongs);
+    
+  } catch (error) {
+    console.error('Error loading music library:', error);
+    contentDiv.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-state-icon">❌</div>
+        <h3>Failed to load music library</h3>
+        <p>Please check your connection and try refreshing the page</p>
+      </div>
+    `;
+  }
+}
+
 
 function showMainView() {
   currentView = 'main';
@@ -1336,16 +1376,14 @@ async function initializeApp() {
   }
 }
 
-// Search functionality
+// Updated search functionality for playlist view
 searchInput.addEventListener('input', () => {
   if (currentView === 'playlist' && currentPlaylist !== 'all') {
-    const songs = allSongs.filter(song => song.playlist === currentPlaylist);
+    // Filter songs that belong to this playlist
+    const songs = allSongs.filter(song => song.playlists && song.playlists.includes(currentPlaylist));
     displaySongs(songs, searchInput.value);
   } else {
-    const songs = currentPlaylist === 'all' ? 
-      allSongs : 
-      allSongs.filter(song => song.playlist === currentPlaylist);
-    displaySongs(songs, searchInput.value);
+    displaySongs(allSongs, searchInput.value);
   }
 });
 
